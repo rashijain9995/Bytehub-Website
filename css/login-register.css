@@ -1,5 +1,4 @@
-@charset "UTF-8";
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .animated {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
@@ -111,7 +110,9 @@
     transform: translateX(10px);
   }
 }
-
+.login {
+  font-family: "Montserrat", sans-serif;
+}
 .shake {
   -webkit-animation-name: shake;
   -moz-animation-name: shake;

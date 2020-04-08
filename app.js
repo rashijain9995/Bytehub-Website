@@ -6,12 +6,12 @@ var logger = require('morgan');
 var admin = require('firebase-admin');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var serviceAccount = require("./serviceaccountkey.json");
+// var serviceAccount = require("./serviceaccountkey.json");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://logindemo-43f9e.firebaseio.com"
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: "https://logindemo-43f9e.firebaseio.com"
+// });
 var app = express();
 
 // view engine setup

@@ -49,7 +49,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="./pages/about_us.html">About us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Media</a>
@@ -82,20 +82,20 @@
             <div class="modal-body">
               <div class="box">
                 <div class="content">
-                  <!-- <div class="social">
-                      <a class="circle github" href="#">
-                        <i class="fa fa-github fa-fw"></i>
-                      </a>
-                      <a id="google_login" class="circle google" href="#">
-                        <i class="fa fa-google-plus fa-fw"></i>
-                      </a>
-                      <a id="facebook_login" class="circle facebook" href="#">
-                        <i class="fa fa-facebook fa-fw"></i>
-                      </a>
-                    </div> -->
+                  <div class="social">
+                    <a class="circle github" href="#">
+                      <i class="fa fa-github fa-fw"></i>
+                    </a>
+                    <a id="google_login" class="circle google" href="#">
+                      <i class="fa fa-google-plus fa-fw"></i>
+                    </a>
+                    <a id="facebook_login" class="circle facebook" href="#">
+                      <i class="fa fa-facebook fa-fw"></i>
+                    </a>
+                  </div>
                   <div class="division">
                     <div class="line l"></div>
-                    <!-- <span>or</span> -->
+                    <span>or</span>
                     <div class="line r"></div>
                   </div>
                   <div class="error"></div>
@@ -270,12 +270,6 @@
       </div>
     </section>
     <!-- What's here for ypu -->
-
-
-
-
-
-
 
     <!-- Testimonials -->
     <section class="section-4 py-lg-4 py-md-3 py-sm-5 py-5">
@@ -502,7 +496,7 @@
             <h2 id="footerlinkheader">Website</h2>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="./pages/about_us.html">About Us</a></li>
               <li><a href="#">Media</a></li>
               <li><a href="#">School</a></li>
               <li><a href="#">Student</a></li>
@@ -525,67 +519,16 @@
       </div>
     </footer>
     <!-- Footer -->
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-functions.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCTNcFPyRs-ifO9O9hfVCHWC8fwDJnQfj4",
-        authDomain: "logindemo-43f9e.firebaseapp.com",
-        databaseURL: "https://logindemo-43f9e.firebaseio.com",
-        projectId: "logindemo-43f9e",
-      };
-      firebase.initializeApp(config);
-
-      // make auth and firestore references
-      const auth = firebase.auth();
-      const db = firebase.firestore();
-      const functions = firebase.functions();
-
-      // update firestore settings
-      db.settings({ timestampsInSnapshots: true });
-    </script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="scripts/auth.js"></script>
-    <script src="scripts/index.js"></script>
-
-
-
-
     <script src="Home.js"></script>
     <script src="bootstrap-4.3.1-dist/js/jquery.js"></script>
     <script src="bootstrap-4.3.1-dist/js/popper.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
+    <!-- Dis-Comment this if you want to directly open login-signup model after reload -->
+    <!-- <script type="text/javascript">
       $(document).ready(function () {
         openLoginModal();
       });
-    </script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-functions.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCTNcFPyRs-ifO9O9hfVCHWC8fwDJnQfj4",
-        authDomain: "logindemo-43f9e.firebaseapp.com",
-        databaseURL: "https://logindemo-43f9e.firebaseio.com",
-        projectId: "logindemo-43f9e",
-      };
-      firebase.initializeApp(config);
-
-      // make auth and firestore references
-      const auth = firebase.auth();
-      const db = firebase.firestore();
-      const functions = firebase.functions();
-
-      // update firestore settings
-      db.settings({ timestampsInSnapshots: true });
-    </script>
+    </script> -->
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/Assets/Images/Logo.png" width="350" title="Bytehub">
+</p>
+
 # Bytehub-Website
 
 Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits.  Bytehub as a platform for techies not only helps you learn &amp; grow together, but also helps you explore new opportunities!
@@ -14,25 +18,15 @@ What things you need to install the software and how to install them
 * [nodejs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Clone this repo and hit the following command
-
-```
+## How to run the website
+```bash
+git clone https://github.com/Bytehub-Decoding-Future/Bytehub-Website.git
+cd Bytehub-Website
 npm install
-```
-
-## Deployment
-
-For testing purposes to deploy it on local host hit this command
-
-```
 npm start
 ```
 
-Then hit http://localhost:3000/ on your browser to see it!
+Now browse to http://localhost:3000
 ## Built With
 
 * [NodeJs](https://nodejs.org/en/) 
@@ -44,4 +38,4 @@ See also the list of [contributors](https://github.com/Bytehub-Decoding-Future/B
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details

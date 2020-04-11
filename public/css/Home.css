@@ -831,3 +831,12 @@ p {
 .footer h4 {
   color: #fff0f5;
 }
+.footer .location a {
+  color: #999999;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.footer .location a:hover {
+  text-decoration: none;
+  color: #4180cb;
+}

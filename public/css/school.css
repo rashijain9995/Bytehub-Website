@@ -121,15 +121,16 @@
 body {
   /* background-color: #182b3a;
   background-image: linear-gradient(860deg, #182b3a 5%, #105a85 90%); */
-  background-color: #2d3436;
-  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  background-color: #050a22;
+  background-image: linear-gradient(315deg, #020403 0%, #0f0f0f 74%);
+  background-image: url("../assets/Images/img/texture.png");
   font-family: "Raleway", sans-serif;
 }
 body h1 {
   font-family: "Raleway", sans-serif;
 }
 section {
-  color: #f0f8ff;
+  color: #b0e0e6;
   padding: 60px 0;
   overflow: hidden;
 }
@@ -181,8 +182,8 @@ section {
 }
 .footer {
   background-color: #6488ea;
-  background-image: linear-gradient(315deg, #2a5470 2%, #6488ea 74%);
-
+  background-image: linear-gradient(315deg, #174058 2%, #1e3572 74%);
+  /* background-image: url("../assets/Images/img/texture_bg.png"); */
   color: white;
 }
 .footer .links ul {
@@ -213,4 +214,7 @@ section {
 }
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer h4 {
+  color: #fff0f5;
 }

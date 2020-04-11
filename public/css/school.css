@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 /* ScrollBar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -13,12 +13,12 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #6488ea;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #6488ea;
+  background: #778abe;
 }
 
 /* ScrollBar */

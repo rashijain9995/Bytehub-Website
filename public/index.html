@@ -8,21 +8,21 @@
   <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/Home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <script src="js/login-register.js" type="text/javascript"></script>
   <link href="css/login-register.css" rel="stylesheet" />
   <title>Home | ByteHub</title>
 </head>
 
 <body>
+  <div id="particles-js"></div>
   <nav>
     <div id="navbar">
       <a href="#">
-        <img src="assets/Images/By.png" alt="" srcset="" width="100px" height="110px">
+        <img src="assets/Images/bytehub(2).png" style="width: 6%;">
       </a>
     </div>
-
+    </nav>
     <!-- <div id="myNav" class="overlay ">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -33,15 +33,13 @@
         </div>
       </div>
       <span class="toggle-button" onclick="openNav()">&#9776;</span> -->
-
-
     <nav class="navbar navbar-expand-lg navbar-light">
+      <p style="color: #0f2b2c;">Bytehub</p>
       <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -54,10 +52,10 @@
             <a class="nav-link" href="#">Media</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Student</a>
+            <a class="nav-link" href="pages/student.html">Student</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/school.html">School</a>
+            <a class="nav-link" href="pages/school.html">School</a>
           </li>
           <li class="nav-item Signin">
             <a class="nav-link Signin-link" href="#" data-toggle="modal" href="javascript:void(0)"
@@ -142,56 +140,49 @@
     <section>
       <div class="container-fluid section-1">
         <div class="Middle">
-          <h1 class="animated  shake delay-0s">Byte<span id="hub">Hub</span></h1>
+          <h1 class="animated  shake delay-0s"><b>Byte<span id="hub">Hub</b></span></h1>
           <p class="subtitle bottom-text"><span>Decoding Future</span></p>
         </div>
         <div class="Middle-text">
-          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae alias,
-            neque veniam eos sed cupiditate error adipisci labore id? Repellendus magnam laudantium
-            laborum nisi optio voluptatem quae ea maiores!</p>
+          <p class="para">Together we learn, Together we grow, Together we are a part of the innovation. </p>
         </div>
       </div>
     </section>
     <!-- main layout -->
-    <div class="jumbotron jumbotron-fluid ">
-      <div class="container">
-        <h3 class="animated infinite jumboheading bounce delay-0s" id="jumboheading">What do we do?</h3>
-        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on
-          the web.</p>
-      </div>
-    </div>
-
-
+\
     <section class="ser">
       <div class="container">
+        <h2 class="animated infinite jumboheading bounce delay-0s mb-5 text-center" id="Whatdowedo">What do we do?</h2>
         <div class="services">
           <div class="headerdivider"></div>
-          <div class="flip-card ">
+          <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/Images/developer.jpg" alt="Avatar"">
+                <img src="assets/Images/platform.png" alt="Platform"">
                 <div class=" card-text">
-                <h4>Devloper</h4>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
+                <h4>Platform</h4>
+                <p>INVOLVE,INDULGE,INNOVATE</p>
               </div>
             </div>
             <div class="flip-card-back">
-              <button class="btn">Know more</button>
+              <!-- <button class="btn">Know more</button> -->
+              <p>Bytehub is one of the largest learning and competition platform.</p>
             </div>
           </div>
         </div>
 
-        <div class="flip-card-2 "">
+        <div class="flip-card-2 " data-aos="fade-in">
             <div class=" flip-card-inner-2">
           <div class="flip-card-front-2 fc2-front">
             <img src="assets/Images/developer.jpg" alt="Avatar"">
-                <div class=" card-text">
-            <h4>Devloper</h4>
-            <p>With supporting text below as a natural lead-in to additional content.</p>
+                <div class=" card-text-2">
+            <h4>Hack</h4>
+            <p>CODE,BUILD,HACK</p>
           </div>
         </div>
         <div class="flip-card-back-2">
-          <button class="btn-2">Know more</button>
+          <p>Unleash your inner Hacker,programmer and competitor and be a part of
+            the most engaged student coding/innovating community.</p>
         </div>
       </div>
       </div>
@@ -201,12 +192,12 @@
           <div class="flip-card-front">
             <img src="assets/Images/developer.jpg" alt="Avatar"">
                 <div class=" card-text">
-            <h4>Devloper</h4>
-            <p>With supporting text below as a natural lead-in to additional content.</p>
+            <h4>Industry connect</h4>
+            <p>LEARN,COMPETE,CONNECT</p>
           </div>
         </div>
         <div class="flip-card-back">
-          <button class="btn">Know more</button>
+          <p>Bytehub is the leading industry connect platform for Schools and engineering STUDENTS.</p>
         </div>
       </div>
       </div>
@@ -215,13 +206,14 @@
         <div class="flip-card-inner-2">
           <div class="flip-card-front-2 fc2-front">
             <img src="assets/Images/developer.jpg" alt="Avatar"">
-                <div class=" card-text">
-            <h4>Devloper</h4>
-            <p>With supporting text below as a natural lead-in to additional content.</p>
+                <div class=" card-text-2">
+            <h4>Future Opportunities</h4>
+            <p>SCREEN,SKILL,GROW</p>
           </div>
         </div>
         <div class="flip-card-back-2">
-          <button class="btn-2">Know more</button>
+          <p>Enhance your skills being a part of the largest growing technical community
+            and direct your career towards the right path</p>
         </div>
       </div>
       </div>
@@ -234,36 +226,33 @@
 
     <!-- What's Here for you? -->
     <section class="sectioner py-5 ">
-      <div py-3">
+      <div class="py-3">
         <span class="heading animated infinite bounce delay-0s">What's For You?</span>
       </div>
       <div class="container Whatforyou py-2">
         <div class="card cd">
           <div class="content ct">
             <h2 id="content-text">JOIN</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <a href="#">Read More</a>
+            <p>Be a part of INDIA's one of the largest growing community of technical enthusiasts.</p>
           </div>
         </div>
         <div class="card cd">
           <div class="content ct">
-            <h2 id="content-text">JOIn</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <a href="#">Read More</a>
+            <h2 id="content-text">Find your interest</h2>
+            <p>Be the Developer you choose to be.</p>
           </div>
         </div>
         <div class="card cd">
           <div class="content ct">
-            <h2 id="content-text">JOIN</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <a href="#">Read More</a>
+            <h2 id="content-text">Learn</h2>
+            <p>With the help of corporate professionals enhance your skills,innovate and get rewarded.</p>
           </div>
         </div>
         <div class="card cd">
           <div class="content ct">
-            <h2 id="content-text">JOIN</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <a href="#">Read More</a>
+            <h2 id="content-text">Stand out</h2>
+            <p>Compete,Discover and stand out.
+              Be known in the community with your expertise..</p>
           </div>
         </div>
       </div>
@@ -272,11 +261,11 @@
 
     <!-- Testimonials -->
     <section class="section-4 py-lg-4 py-md-3 py-sm-5 py-5">
+      <h2 class="heading  animated infinite bounce delay-0s"><b>Testimonials</b></h2>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <h2 class="animated infinite bounce delay-0s"><b>Testimonials</b></h2>
               <!-- Carousel indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -467,67 +456,69 @@
       </div>
     </section>
     <!-- Testimonials -->
-
     <!-- ----------------------------------------------------------------------------------------------- -->
-
-    <!-- Footer -->
-    <footer>
-      <div class="container-fluid footer  py-lg-4 py-md-3 py-sm-5 py-5">
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
-            <h2 id="Bytecode">Contact Us</h2>
-            <ul>
-              <li>
-                <span class="fa fa-map-marker"></span>&nbsp
-                <a href="href=" http://maps.google.com/maps?q=210+Louise+Ave,+Nashville,+TN+37203"
-                  class="mail">Address</a>
-              </li>
-              <li>
-                <span class="fa fa-phone"></span>&nbsp
-                <a href="tel:+44 99 555 42"> 000000000</a></li>
-              <li>
-                <i class="fas fa-envelope"></i>&nbsp
-                <a href="mailto:mailid@mail.com" class="mail">
-                  bytehub@gmail.com</a></li>
-            </ul>
+        <!-- footer -->
+        <footer class="pt-5">  
+          <div class="container-fluid footer  py-lg-4 py-md-3 py-sm-5 py-5">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
+                <img src="assets/Images/bytehub(2).png" style="width: 30%;">
+                <p class="pr-5 text-white-70">Bytehub is a community of like-minded technology enthusiasts, students
+                    and professionals who help each other to push their limits.</p>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/Bytehub3?s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=1670ydp40aszp&utm_content=ew1nonx"><i id="instagram" class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a> 
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
+                <h2 id="footerlinkheader">Links</h2>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="pages/school.html">School</a></li>
+                    <li><a href="pages/student.html">Student</a></li>
+                  </ul>             
+              </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
+                   <h2 id="Social">Contact Us</h2>
+                     <ul>
+                      <!-- <li>
+                        <span class="fa fa-map-marker"></span>&nbsp
+                        <a href="href="http://maps.google.com/maps?q=210+Louise+Ave,+Nashville,+TN+37203" class="mail">Address</a>
+                      </li> -->
+                      <li>
+                        <span class="fa fa-phone"></span>&nbsp
+                        <a href="tel:+44 99 555 42"> 000000000</a></li>
+                      <li>
+                        <i class="fas fa-envelope"></i>&nbsp
+                        <a href="mailto:mailid@mail.com" class="mail">
+                          bytehub@gmail.com</a></li>
+                    </ul>
+                 </div>                
+            </div>
+            <div class="row">
+                    <p id="copyright"> © 2020 ByteHub. All rights reserved | Design by <a
+                        href="https://w3layouts.com/">ByteHub</a>
+                    </p>
+              </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
-            <h2 id="footerlinkheader">Website</h2>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="./pages/about_us.html">About Us</a></li>
-              <li><a href="#">Media</a></li>
-              <li><a href="#">School</a></li>
-              <li><a href="#">Student</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
-            <h2 id="Social">Follow Us</h2>
-            <p>Please Follow us on our Social Media Profile</p>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i id="instagram" class="fab fa-instagram-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="row">
-          <p id="copyright"> © 2020 ByteHub. All rights reserved | Design by <a
-              href="https://w3layouts.com/">ByteHub</a>
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- Footer -->
-    <script src="/js/Home.js"></script>
+        </footer>
+    <script src="../public/js/Home.js"></script>
     <script src="bootstrap-4.3.1-dist/js/jquery.js"></script>
     <script src="bootstrap-4.3.1-dist/js/popper.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <!-- Dis-Comment this if you want to directly open login-signup model after reload -->
+    <script src="bootstrap-4.3.1-dist/js/particles.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Un-Comment this if you want to directly open login-signup model after reload -->
     <!-- <script type="text/javascript">
       $(document).ready(function () {
         openLoginModal();
       });
     </script> -->
-</body>
 
+
+</body>
 </html>

@@ -1,24 +1,140 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #f0f8ff; */
+  /* box-shadow: inset 0 0 5px  #E0A800;  */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6488ea;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6488ea;
+}
+
+/* ScrollBar */
+
+/* --------------------------------------------------------------------------------- */
+
+#navbar {
+  position: fixed;
+  top: -90px;
+  width: 10%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-nav {
+  text-align: center;
+  color: #73c2fb;
+  padding: 15px 0px;
+}
+.navbar-nav a {
+  color: #73c2fb !important;
+  font-family: "Raleway", sans-serif;
+}
+.navbar-nav a:hover {
+  color: white !important;
+  font-size: 20px;
+}
+.navbar-toggler {
+  color: #73c2fb;
+}
+.custom-toggler.navbar-toggler {
+  border-color: #73c2fb;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 168, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.Signin {
+  margin: 0 5px;
+  border: 1.5px solid #f0f8ff;
+  border-radius: 10px;
+}
+.Signin :hover {
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
+
+.Signin a {
+  color: #73c2fb !important;
+}
+.Signin a:hover {
+  color: #0073cf !important;
+}
+.Signup {
+  margin: 0 5px;
+  border: 1.5px solid #f0f8ff;
+  border-radius: 10px;
+}
+.Signup :hover {
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
+
+.Signup a {
+  color: #73c2fb !important;
+}
+.Signup a:hover {
+  color: #0073cf !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .navbar-nav {
+    font-size: 20px;
+  }
+  .nav-link {
+    border: 1px solid #e0a800;
+    border-radius: 25px;
+    margin: 2px 0px;
+  }
+  .nav-link:hover {
+    background-color: #e0a800;
+  }
+  .Signup {
+    border: none;
+    border-radius: 0px;
+  }
+  .Signin {
+    border: none;
+    border-radius: 0px;
+  }
+}
 body {
+  /* background-color: #182b3a;
+  background-image: linear-gradient(860deg, #182b3a 5%, #105a85 90%); */
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   font-family: "Raleway", sans-serif;
 }
 body h1 {
   font-family: "Raleway", sans-serif;
 }
 section {
-  color: #ddd;
+  color: #f0f8ff;
   padding: 60px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background: linear-gradient(
-    180deg,
-    rgb(133, 134, 54) 30%,
-    #213b52 50%,
-    rgb(34, 27, 18) 50%,
-    #b18f70 30%
-  );
 }
 
 .section-title {
@@ -33,8 +149,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  color: #213b52;
+  font-family: "Raleway", sans-serif;
+  color: #6488ea;
 }
 
 .section-title h2::before {
@@ -49,12 +165,13 @@ section {
 }
 
 .section-title h2::after {
+  font-family: "Raleway", sans-serif;
   content: "";
   position: absolute;
   display: block;
   width: 40px;
   height: 3px;
-  background: #fdc134;
+  background: #b0e0e6;
   bottom: 0;
   left: calc(50% - 20px);
 }

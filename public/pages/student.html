@@ -67,16 +67,91 @@
                 </ul>
             </div>
         </nav>
+        <div class="container">
+            <div class="modal fade login" id="loginModal">
+                <div class="modal-dialog login animated">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p style="text-align: center;">Login with</p>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="box">
+                                <div class="content">
+                                    <div class="social">
+                                        <a class="circle github" href="#">
+                                            <i class="fa fa-github fa-fw"></i>
+                                        </a>
+                                        <a id="google_login" class="circle google" href="#">
+                                            <i class="fa fa-google-plus fa-fw"></i>
+                                        </a>
+                                        <a id="facebook_login" class="circle facebook" href="#">
+                                            <i class="fa fa-facebook fa-fw"></i>
+                                        </a>
+                                    </div>
+                                    <div class="division">
+                                        <div class="line l"></div>
+                                        <span>or</span>
+                                        <div class="line r"></div>
+                                    </div>
+                                    <div class="error"></div>
+                                    <div class="form loginBox">
+                                        <form method="" action="" accept-charset="UTF-8">
+                                            <input id="login-email" class="form-control" type="text" placeholder="Email"
+                                                name="email">
+                                            <input id="login-password" class="form-control" type="password"
+                                                placeholder="Password" name="password">
+                                            <button class="btn-login" type="button" value="Login"
+                                                onclick="loginAjax()">Login</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="content registerBox" style="display:none;">
+                                    <div class="form">
+                                        <form method="" html="{:multipart=>true}" data-remote="true" action=""
+                                            accept-charset="UTF-8">
+                                            <input id="email" class="form-control" type="text" placeholder="Email"
+                                                name="email">
+                                            <input id="password" class="form-control" type="password"
+                                                placeholder="Password" name="password">
+                                            <input id="password_confirmation" class="form-control" type="password"
+                                                placeholder="Retype Password" name="password_confirmation">
+                                            <input class="btn-default btn-register" type="button" value="Create account"
+                                                name="commit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="forgot login-footer">
+                                <span>Looking to
+                                    <a href="javascript: showRegisterForm();">create an account</a>
+                                    ?</span>
+                            </div>
+                            <div class="forgot register-footer" style="display:none">
+                                <span>Already have an account?</span>
+                                <a href="javascript: showLoginForm();">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="features" class="features section-bg">
             <div class="container">
                 <div class="section-title">
                     <h2 data-aos="fade-in" style="color:#0ae9c4">For Student</h2>
-                    <p data-aos="fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit consequatur
+                    <p data-aos="fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit
+                        consequatur
                         cupiditate
-                        laudantium accusantium corporis neque voluptate obcaecati. Voluptatibus optio consequatur ea earum
+                        laudantium accusantium corporis neque voluptate obcaecati. Voluptatibus optio consequatur ea
+                        earum
                         nihil ipsam
                         molestias suscipit incidunt tempora debitis?</p>
-    
+
                 </div>
                 <div class="row content">
                     <div class="col-md-5" data-aos="fade-right">
@@ -85,8 +160,10 @@
                     <div class="col-md-7 pt-4" data-aos="fade-left">
                         <h3 style="color:#0ae9c4">Together we are a part of the Journey</h3>
                         <p>
-                            As a part of our community you will be indulged in a variety of different learning events.Where you will be having the opportunity to showcase your talent and skills
-                            infront of the Corporate Experts.Which will enhance your chances to find your level of innovative thinking and get rewarded for it,and we will make sure the right talent
+                            As a part of our community you will be indulged in a variety of different learning
+                            events.Where you will be having the opportunity to showcase your talent and skills
+                            infront of the Corporate Experts.Which will enhance your chances to find your level of
+                            innovative thinking and get rewarded for it,and we will make sure the right talent
                             meets the right opportunity in future..
                             Together we learn,Together we grow and Together we are a part of the innovation..
                         </p>
@@ -99,10 +176,14 @@
                     <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
                         <h3 style="color:#0ae9c4">Socialisation </h3>
                         <p>
-                            We offer students and industry experts different tools oriented towards collaborative learning: forums,
-                            It does not only involve finding orientation and support at occasional times, but encouraging participation, completing training with other points of view,
-                            empathising and strengthening personal relationships through synergy, generating the sensation of belonging to a group
-                            – Socialising. Additionally the student increases their level of commitment, and finds suitable contexts for strengthening
+                            We offer students and industry experts different tools oriented towards collaborative
+                            learning: forums,
+                            It does not only involve finding orientation and support at occasional times, but
+                            encouraging participation, completing training with other points of view,
+                            empathising and strengthening personal relationships through synergy, generating the
+                            sensation of belonging to a group
+                            – Socialising. Additionally the student increases their level of commitment, and finds
+                            suitable contexts for strengthening
                             their skills and attitudes for learning.
                         </p>
                     </div>
@@ -114,12 +195,18 @@
                     <div class="col-md-7 pt-5" data-aos="fade-left">
                         <h3 style="color:#0ae9c4">Technological skills</h3>
                         <p>
-                            Technological development is constant in our daily lives. Acquiring technological skills from the digital environments that 
-                            a learning platform offers is practically essential for knowing how to adapt to changes in the existing models and the professional
-                            activity of the future of our society. Among these skills, learning platforms begin with the mastery of ICT (information and communication technology) 
-                            to use them to learn how to access the content that complements learning, to select the most relevant elements, analyse them, 
-                            and draw conclusions. In fact, technological skills help to develop critical thinking, problem solving, creativity and collaboration. 
-                            Additionally, they foster interest and curiosity in knowledge and innovation, while improving the capacity for initiative, adaptability 
+                            Technological development is constant in our daily lives. Acquiring technological skills
+                            from the digital environments that
+                            a learning platform offers is practically essential for knowing how to adapt to changes in
+                            the existing models and the professional
+                            activity of the future of our society. Among these skills, learning platforms begin with the
+                            mastery of ICT (information and communication technology)
+                            to use them to learn how to access the content that complements learning, to select the most
+                            relevant elements, analyse them,
+                            and draw conclusions. In fact, technological skills help to develop critical thinking,
+                            problem solving, creativity and collaboration.
+                            Additionally, they foster interest and curiosity in knowledge and innovation, while
+                            improving the capacity for initiative, adaptability
                             and integration.
                         </p>
                     </div>
@@ -131,8 +218,10 @@
                     <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
                         <h3 style="color:#0ae9c4">Management of information and time</h3>
                         <p>
-                            We provide multiple additional tools for planning training such as schedules, notifications, communications 
-                            and upcoming events.Consequently, students learn to coordinate their activities, to be more selective, and to establish priorities, optimising their 
+                            We provide multiple additional tools for planning training such as schedules, notifications,
+                            communications
+                            and upcoming events.Consequently, students learn to coordinate their activities, to be more
+                            selective, and to establish priorities, optimising their
                             time and dedication. This helps them obtain the maximum performance from their efforts.
                         </p>
                     </div>
@@ -143,63 +232,70 @@
                     </div>
                     <div class="col-md-7 pt-5" data-aos="fade-left">
                         <h3 style="color:#0ae9c4">Sense of responsibility</h3>
-                        <p>Moving on, we have multiple variables for checking the success of learning. In this sense, Through the self-evaluation, the student 
-                            becomes aware of their progress, their level of learning and their areas for improvement. Therefore, self-evaluation is an exercise in responsibility, 
-                            a precise and effective way of understanding the level of learning. Additionally, This allows the level of commitment of the student to be maintained, 
-                            while reducing the amount of pressure on them, as the processes for measuring the effectiveness of learning are not limited to occasional controls upon 
+                        <p>Moving on, we have multiple variables for checking the success of learning. In this sense,
+                            Through the self-evaluation, the student
+                            becomes aware of their progress, their level of learning and their areas for improvement.
+                            Therefore, self-evaluation is an exercise in responsibility,
+                            a precise and effective way of understanding the level of learning. Additionally, This
+                            allows the level of commitment of the student to be maintained,
+                            while reducing the amount of pressure on them, as the processes for measuring the
+                            effectiveness of learning are not limited to occasional controls upon
                             which the whole qualification is based.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- footer -->
-        <footer>  
+        <footer>
             <div class="container-fluid footer  py-lg-4 py-md-3 py-sm-5 py-5">
-              <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
-                  <h2 id="Bytecode">Bytehub</h2>
-                  <!-- <img src="../assets/Images/By.png" alt="" srcset="" width="200px" height="200px" style="padding: 0px;">  -->
-                  <p class="pr-5 text-white-70">Bytehub is a community of like-minded technology enthusiasts, students
-                      and professionals who help each other to push their limits.</p>
-                      <a href="#"><i class="fab fa-facebook-square"></i></a>
-                      <a href="https://twitter.com/Bytehub3?s=09"><i class="fab fa-twitter"></i></a>
-                      <a href="https://www.instagram.com/invites/contact/?i=1670ydp40aszp&utm_content=ew1nonx"><i id="instagram" class="fab fa-instagram-square"></i></a>
-                      <a href="#"><i class="fab fa-linkedin"></i></a> 
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
+                        <h2 id="Bytecode">Bytehub</h2>
+                        <!-- <img src="../assets/Images/By.png" alt="" srcset="" width="200px" height="200px" style="padding: 0px;">  -->
+                        <p class="pr-5 text-white-70">Bytehub is a community of like-minded technology enthusiasts,
+                            students
+                            and professionals who help each other to push their limits.</p>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/Bytehub3?s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=1670ydp40aszp&utm_content=ew1nonx"><i
+                                id="instagram" class="fab fa-instagram-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
+                        <h2 id="footerlinkheader">Links</h2>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">School</a></li>
+                            <li><a href="#Student">Student</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
+                        <h2 id="Social">Contact Us</h2>
+                        <ul>
+                            <li>
+                                <span class="fa fa-map-marker"></span>&nbsp
+                                <a href="href=" http://maps.google.com/maps?q=210+Louise+Ave,+Nashville,+TN+37203"
+                                    class="mail">Address</a>
+                            </li>
+                            <li>
+                                <span class="fa fa-phone"></span>&nbsp
+                                <a href="tel:+44 99 555 42"> 000000000</a></li>
+                            <li>
+                                <i class="fas fa-envelope"></i>&nbsp
+                                <a href="mailto:mailid@mail.com" class="mail">
+                                    bytehub@gmail.com</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
-                  <h2 id="footerlinkheader">Links</h2>
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Media</a></li>
-                      <li><a href="#">School</a></li>
-                      <li><a href="#Student">Student</a></li>
-                    </ul>             
-                </div>
-                   <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
-                     <h2 id="Social">Contact Us</h2>
-                       <ul>
-                        <li>
-                          <span class="fa fa-map-marker"></span>&nbsp
-                          <a href="href="http://maps.google.com/maps?q=210+Louise+Ave,+Nashville,+TN+37203" class="mail">Address</a>
-                        </li>
-                        <li>
-                          <span class="fa fa-phone"></span>&nbsp
-                          <a href="tel:+44 99 555 42"> 000000000</a></li>
-                        <li>
-                          <i class="fas fa-envelope"></i>&nbsp
-                          <a href="mailto:mailid@mail.com" class="mail">
-                            bytehub@gmail.com</a></li>
-                      </ul>
-                   </div>                
-              </div>
-              <div class="row">
-                      <p id="copyright"> © 2020 ByteHub. All rights reserved | Design by <a
-                          href="https://w3layouts.com/">ByteHub</a>
-                      </p>
+                <div class="row">
+                    <p id="copyright"> © 2020 ByteHub. All rights reserved | Design by <a
+                            href="https://w3layouts.com/">ByteHub</a>
+                    </p>
                 </div>
             </div>
-          </footer>
+        </footer>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
@@ -215,15 +311,15 @@
         <script>
 
 
-window.onscroll = function () { scrollFunction() };
+            window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-90px";
-  }
-}
+            function scrollFunction() {
+                if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-90px";
+                }
+            }
 
 
 

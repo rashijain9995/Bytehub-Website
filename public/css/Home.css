@@ -202,8 +202,13 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-image: url("../assets/Images/img/texture.png"); */
 }
+@media only screen and  (max-width: 768px) {
+  #particles-js{
+    height: 70%;
+  }
+}
+
 h3 {
   font-size: 40px;
   color: white;
@@ -242,15 +247,15 @@ h3 {
 
 /* -------------------------------------------------------------------------------------------- */
 
-/* main layout */
 .section-1 {
-  height: 100vh;
+
   background-color: #050a22;
   background-image: url("../assets/Images/img/texture.png");
   font-family: "Raleway", sans-serif;
 }
+
 .Middle {
-  padding: 10% 0 0 0;
+  margin :12rem 0rem;
   text-align: center;
 }
 h1 {
@@ -293,21 +298,72 @@ h1 {
   right: 100%;
   margin-right: 12px;
 }
-.Middle-text {
-  width: 60%;
-  margin: auto;
-}
+  .Middle-text {
+    width: 60%;
+    margin: auto;
+  }
 .para {
   color: white;
   text-align: center;
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 414px) {
+  #particles-js{
+    height: 100%;
+  }
+
   .Middle {
-    padding: 32% 0 0 0;
+    margin :12rem 0rem;
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  #hub {
+    color: #1ca9c9;
+  }
+  #hublogo {
+    color: #4682b4;
+  }
+  .subtitle {
+    margin: 0 0 2em 6rem;
+    font-size: 20px;
+  }
+  .subtitlelogo {
+    margin: 0 0 2em 6rem;
+    font-size: 20px;
+  }
+  .bottom-text {
+    line-height: 0.2;
+    text-align: center;
+    color: white;
+  }
+  .bottom-text span {
+    display: inline-block;
+    position: relative;
+  }
+  .bottom-text span:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 3px solid #1ca9c9;
+    top: 0;
+    width: 85px;
+  }
+  .bottom-text span:before {
+    right: 100%;
+    margin-right: 12px;
+  }
+    .Middle-text {
+      width: 60%;
+      margin: auto;
+    }
+  .para {
+    color: white;
     text-align: center;
   }
 }
-
 .shake {
   animation-duration: 3s;
   animation-delay: 0s;
@@ -320,14 +376,12 @@ h1 {
 #Whatdowedo{
   color: #efc0fe;
   font-weight: bold;
- 
 }
-
 .headerdivider {
   border-left: 3px solid #efc0fe;
   background: #efc0fe;
   width: 3px;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   right: 50%;
 }
@@ -337,7 +391,7 @@ h1 {
   width: 450px;
   height: 150px;
   perspective: 1000px;
-  margin-right: 800%;
+  margin-right: 80%;
   font-family: "Raleway", sans-serif;
 }
 
@@ -458,27 +512,33 @@ h1 {
   padding: 5px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and  (max-width: 414px) {
+  .ser{
+    margin-top: 20rem;
+  }
   .flip-card,
   .flip-card-2 {
-    width: 450px;
-    height: 170px;
-    margin-left: 1%;
-    padding: 10px 0px;
+    width: 300px;
+    height: 220px;
+    margin-left: 10%;
   }
 
   .flip-card-front img{
     float: left;
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
   }
   .flip-card-front-2 img{
     float: left;
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
   }
   .headerdivider {
     display: none;
+  }
+  .jumboheading{
+    font-size: 30px;
+    margin-left: 25px;
   }
   .card-text{
     padding: 2px;
@@ -493,8 +553,21 @@ h1 {
      margin-top: 35px;
      margin-left: 10px;
     }
-
 }
+@media only screen and  (max-width: 768px) {
+  .flip-card {
+    width: 280px;
+    height: 250px;
+  }
+  .flip-card-2 {
+    width: 280px;
+    height: 220px;
+  }
+  .headerdivider {
+    height: 100vh;
+  }
+}
+
 
 /* what we do */
 
@@ -505,7 +578,7 @@ h1 {
   background-color: #050a22;
   background-image: url("../assets/Images/img/texture.png");
   font-family: "Raleway", sans-serif;
-  height: 90vh;
+  /* height: 90vh; */
   margin-top: 20px;
 }
 
@@ -621,14 +694,23 @@ h1 {
   bottom: -20px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 414px) {
+  .heading {
+    font-size: 26px;
+    margin: 0 0 50px 70px;
+  } 
   .sectioner {
-    height: 135vh;
+    height: 100vh;
   }
   .container .card {
-    width: 200px;
+    width: 160px;
     height: 250px;
-  
+  }
+}
+@media only screen and  (min-width: 1024px){
+  .container .card {
+    width: 220px;
+    height: 300px;
   }
 }
 
@@ -648,7 +730,7 @@ h2 {
   font-size: 36px;
   font-weight: 400;
   position: relative;
-  margin: 0 0 50px 0;
+  margin: 0 0 30px 0;
   text-transform: uppercase;
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -790,10 +872,32 @@ h2::after {
   font-size: 14px;
   color: #ffdc12;
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 414px) {
   .carousel .testimonial {
     margin: 0 0 20px 0px;
   }
+  .section-4{
+    margin-top:20px ;
+  }
+ 
+}
+@media only screen and (max-width: 768px) {
+  .heading{
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+  h2{
+    margin: 70px 0 20px 0;
+  }
+  .carousel .testimonial {
+    margin: 10px 0 20px 0px;
+  }
+  .carousel {
+    margin: 20px auto;
+  }
+
 }
 
 /* Testimonials */

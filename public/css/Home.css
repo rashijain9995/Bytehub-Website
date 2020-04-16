@@ -12,13 +12,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6488ea;
+  background: #1ca9c9;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #778abe;
+  background: #1ca9c9;
 }
 
 /* ScrollBar */
@@ -28,7 +28,7 @@
 #navbar {
   position: fixed;
   top: -90px;
- 
+
   display: block;
   transition: top 0.3s;
 }
@@ -54,12 +54,9 @@
 .navbar-nav a:hover {
   color: white !important;
   font-size: 20px;
-  
-  
 }
 .navbar-toggler {
   color: #73c2fb;
-  
 }
 .custom-toggler.navbar-toggler {
   border-color: #73c2fb;
@@ -116,7 +113,7 @@
     border: none;
     border-radius: 25px;
   }
-  .Signup:hover{
+  .Signup:hover {
     border-radius: 50%;
   }
   .Signin {
@@ -195,16 +192,16 @@
 /* SideLogo */
 body {
   background-color: #050a22;
-  background-image: url("../assets/Images/img/texture.png");
+  background-image: url("../assets/images/img/texture.png");
   font-family: "Raleway", sans-serif;
 }
-#particles-js{
+#particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-@media only screen and  (max-width: 768px) {
-  #particles-js{
+@media only screen and (max-width: 768px) {
+  #particles-js {
     height: 70%;
   }
 }
@@ -248,14 +245,13 @@ h3 {
 /* -------------------------------------------------------------------------------------------- */
 
 .section-1 {
-
   background-color: #050a22;
-  background-image: url("../assets/Images/img/texture.png");
+  background-image: url("../assets/images/img/texture.png");
   font-family: "Raleway", sans-serif;
 }
 
 .Middle {
-  margin :12rem 0rem;
+  margin: 12rem 0rem;
   text-align: center;
 }
 h1 {
@@ -298,21 +294,21 @@ h1 {
   right: 100%;
   margin-right: 12px;
 }
-  .Middle-text {
-    width: 60%;
-    margin: auto;
-  }
+.Middle-text {
+  width: 60%;
+  margin: auto;
+}
 .para {
   color: white;
   text-align: center;
 }
 @media only screen and (max-width: 414px) {
-  #particles-js{
+  #particles-js {
     height: 100%;
   }
 
   .Middle {
-    margin :12rem 0rem;
+    margin: 12rem 0rem;
     text-align: center;
   }
   h1 {
@@ -355,10 +351,10 @@ h1 {
     right: 100%;
     margin-right: 12px;
   }
-    .Middle-text {
-      width: 60%;
-      margin: auto;
-    }
+  .Middle-text {
+    width: 60%;
+    margin: auto;
+  }
   .para {
     color: white;
     text-align: center;
@@ -373,7 +369,7 @@ h1 {
 /* ---------------------------------------------------------------------------------------------- */
 
 /* what we do */
-#Whatdowedo{
+#Whatdowedo {
   color: #efc0fe;
   font-weight: bold;
 }
@@ -441,13 +437,12 @@ h1 {
   transform: rotateY(180deg);
   box-shadow: 0 5px 15px #0073cf;
 }
-.flip-card-back p{
+.flip-card-back p {
   font-size: 20px;
   color: #1ca9c9;
-  margin-top:1.5rem;
+  margin-top: 1.5rem;
   padding: 10px;
 }
-
 
 .flip-card-2 {
   background-color: transparent;
@@ -479,9 +474,7 @@ h1 {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
- 
 }
-
 
 .flip-card-front-2 img {
   width: 130px;
@@ -505,15 +498,15 @@ h1 {
   transform: rotateY(180deg);
   box-shadow: 0 5px 15px #0073cf;
 }
-.flip-card-back-2 p{
+.flip-card-back-2 p {
   font-size: 20px;
   color: #1ca9c9;
-  margin-top: 1.5rem ;
+  margin-top: 1.5rem;
   padding: 5px;
 }
 
-@media only screen and  (max-width: 414px) {
-  .ser{
+@media only screen and (max-width: 414px) {
+  .ser {
     margin-top: 20rem;
   }
   .flip-card,
@@ -523,38 +516,37 @@ h1 {
     margin-left: 10%;
   }
 
-  .flip-card-front img{
+  .flip-card-front img {
     float: left;
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
   }
-  .flip-card-front-2 img{
+  .flip-card-front-2 img {
     float: left;
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
   }
   .headerdivider {
     display: none;
   }
-  .jumboheading{
+  .jumboheading {
     font-size: 30px;
     margin-left: 25px;
   }
-  .card-text{
+  .card-text {
     padding: 2px;
     text-align: left;
     margin-top: 35px;
     font-size: 15px;
-    
-   }
-   .card-text-2{
-     padding: 2px;
-     text-align: left;
-     margin-top: 35px;
-     margin-left: 10px;
-    }
+  }
+  .card-text-2 {
+    padding: 2px;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
 }
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .flip-card {
     width: 280px;
     height: 250px;
@@ -568,7 +560,6 @@ h1 {
   }
 }
 
-
 /* what we do */
 
 /* --------------------------------------------------------------------------- */
@@ -576,7 +567,7 @@ h1 {
 /* What's here for you */
 .sectioner {
   background-color: #050a22;
-  background-image: url("../assets/Images/img/texture.png");
+  background-image: url("../assets/images/img/texture.png");
   font-family: "Raleway", sans-serif;
   /* height: 90vh; */
   margin-top: 20px;
@@ -613,7 +604,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-   background-image: linear-gradient(#1ca9c9,#050a22);
+  background-image: linear-gradient(#1ca9c9, #050a22);
   z-index: 1;
   transition: 0.5s;
 }
@@ -654,8 +645,11 @@ h1 {
   font-size: 3em;
 }
 .container .card .content p {
-  font-size: 0.9em;
+  font-size: 15px;
+  color: #efc0fe;
+  font-weight: bold;
 }
+
 .container .card .content a {
   display: inline-block;
   margin-top: 15px;
@@ -672,9 +666,12 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
-
+#interest-card {
+  margin-top: 2px;
+  margin-bottom: 45px;
+}
 .heading {
-  color: #efc0fe;
+  color: #dd90f7;
   font-size: 36px;
   font-weight: bold;
   position: relative;
@@ -698,7 +695,7 @@ h1 {
   .heading {
     font-size: 26px;
     margin: 0 0 50px 70px;
-  } 
+  }
   .sectioner {
     height: 100vh;
   }
@@ -707,7 +704,7 @@ h1 {
     height: 250px;
   }
 }
-@media only screen and  (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .container .card {
     width: 220px;
     height: 300px;
@@ -722,7 +719,7 @@ h1 {
 
 .section-4 {
   background-color: #050a22;
-  background-image: url("../assets/Images/img/texture.png");
+  background-image: url("../assets/images/img/texture.png");
   font-family: "Raleway", sans-serif;
 }
 h2 {
@@ -770,7 +767,7 @@ h2::after {
 .carousel .testimonial {
   color: #efc0fe;
   position: relative;
-  background-image: linear-gradient( to left ,#1ca9c9,#050a22);
+  background-image: linear-gradient(to left, #1ca9c9, #050a22);
   padding: 25px;
   margin: 0 0 20px 20px;
   font-size: large;
@@ -876,19 +873,17 @@ h2::after {
   .carousel .testimonial {
     margin: 0 0 20px 0px;
   }
-  .section-4{
-    margin-top:20px ;
+  .section-4 {
+    margin-top: 20px;
   }
- 
 }
 @media only screen and (max-width: 768px) {
-  .heading{
+  .heading {
     margin-top: 4rem;
   }
 }
 @media only screen and (max-width: 1024px) {
-
-  h2{
+  h2 {
     margin: 70px 0 20px 0;
   }
   .carousel .testimonial {
@@ -897,7 +892,6 @@ h2::after {
   .carousel {
     margin: 20px auto;
   }
-
 }
 
 /* Testimonials */
@@ -905,136 +899,135 @@ h2::after {
 /* ---------------------------------------------------------------------------------------------- */
 
 /* Footer */
-.footer{
-  background-image: linear-gradient(210deg ,#1ca9c9,#050a22);
- 
+.footer {
+  background-image: linear-gradient(210deg, #1ca9c9, #050a22);
+
   padding-top: 40px;
 }
 /* Segment one  */
-.segment-three ul{
+.segment-three ul {
   margin-bottom: 25px;
   padding: 0;
-  list-style: none;  
+  list-style: none;
 }
-.segment-three{
+.segment-three {
   color: black;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;  
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
-.segment-three h2{
+.segment-three h2 {
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
 }
-.segment-three h2:before{
-  content: '|';
+.segment-three h2:before {
+  content: "|";
   color: #050a22;
   padding-right: 10px;
 }
-.segment-three ul li a{
+.segment-three ul li a {
   color: black;
   text-decoration: none;
   padding: 20px;
-  
-} 
-.segment-three ul li a:hover{
+}
+.segment-three ul li a:hover {
   color: white;
-}   
+}
 
 /* Segment Two  */
-.segment-two{
+.segment-two {
   margin-bottom: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.segment-two h2{
-    font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+.segment-two h2 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
-
 }
-.segment-two h2:before{
-  content: '|';
+.segment-two h2:before {
+  content: "|";
   color: #050a22;
   padding-right: 10px;
 }
-.segment-two ul{
+.segment-two ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.segment-two ul li{
+.segment-two ul li {
   border-bottom: 1px solid #050a22;
   line-height: 40px;
 }
-.segment-two ul li a{
+.segment-two ul li a {
   color: black;
   text-decoration: none;
 }
-.segment-two ul li a:hover{
-  color:white;
+.segment-two ul li a:hover {
+  color: white;
 }
 /* Segment one */
-.segment-one{
+.segment-one {
   margin-bottom: 2rem;
 }
-.segment-one p{
+.segment-one p {
   margin-top: 2rem;
   color: #000;
   font-weight: bold;
 }
-.segment-one h2{
+.segment-one h2 {
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.segment-one a{
+.segment-one a {
   background: black;
   width: 40px;
   height: 40px;
   display: inline-block;
   border-radius: 50%;
 }
-.segment-one a:hover{
+.segment-one a:hover {
   background: white;
- 
 }
-.segment-one a i{
+.segment-one a i {
   font-size: 20px;
   color: #fff;
   padding: 10px 12px;
 }
-.segment-one a i:hover{
-color: blue;
+.segment-one a i:hover {
+  color: blue;
 }
-#instagram:hover{
- color: rgb(209, 56, 95);
+#instagram:hover {
+  color: rgb(209, 56, 95);
 }
 
 /* Copyright */
-#copyright{
+#copyright {
   padding-top: 15px;
-  text-align: center; 
-  margin-left: 12px; 
+  text-align: center;
+  margin-left: 12px;
   color: white;
-} 
-#copyright a{
+}
+#copyright a {
   text-decoration: none;
   color: white;
 }
-#copyright a:hover{
+#copyright a:hover {
   color: black;
   font-weight: bold;
   font-size: 20px;
 }
-#footerlinkheader::after,#Social::after,#Bytecode::after {
-    content: "";
-    background: #050a22;
+#footerlinkheader::after,
+#Social::after,
+#Bytecode::after {
+  content: "";
+  background: #050a22;
 }
 
 /* Footer */

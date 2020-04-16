@@ -12,13 +12,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6488ea;
+  background: #1ca9c9;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #778abe;
+  background: #1ca9c9;
 }
 
 /* ScrollBar */
@@ -646,7 +646,7 @@ h1 {
   z-index: 2;
   padding: 0 20px;
   transition: 0.5s;
-}
+}   
 .container .card:hover .content {
   color: #efc0fe !important;
 }
@@ -654,8 +654,11 @@ h1 {
   font-size: 3em;
 }
 .container .card .content p {
-  font-size: 0.9em;
+  font-size: 15px;
+  color: #efc0fe;
+  font-weight: bold;
 }
+
 .container .card .content a {
   display: inline-block;
   margin-top: 15px;
@@ -672,9 +675,12 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
-
+#interest-card{
+  margin-top: 2px;
+  margin-bottom: 45px;
+}
 .heading {
-  color: #efc0fe;
+  color: #dd90f7;
   font-size: 36px;
   font-weight: bold;
   position: relative;

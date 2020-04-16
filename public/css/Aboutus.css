@@ -12,13 +12,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(100, 136, 234);
+  background: #fab44b;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #778abe;
+  background: #fab44b;
 }
 
 /* ScrollBar */
@@ -43,11 +43,11 @@
 
 .navbar-nav {
   text-align: center;
-  color: #73c2fb;
+  color: #fab44b;
   padding: 15px 0px;
 }
 .navbar-nav a {
-  color: #73c2fb !important;
+  color: #fab44b !important;
   font-family: "Raleway", sans-serif;
 }
 .navbar-nav a:hover {
@@ -55,13 +55,13 @@
   font-size: 20px;
 }
 .navbar-toggler {
-  color: #73c2fb;
+  color:#fab44b;
 }
 .custom-toggler.navbar-toggler {
-  border-color: #73c2fb;
+  border-color: rgb(250, 180, 75);
 }
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 136, 234)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 180, 75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .Signin {
   margin: 0 5px;
@@ -74,10 +74,10 @@
 }
 
 .Signin a {
-  color: #73c2fb !important;
+  color: #fab44b !important;
 }
 .Signin a:hover {
-  color: #0073cf !important;
+  color: #fab44b !important;
 }
 .Signup {
   margin: 0 5px;
@@ -90,10 +90,10 @@
 }
 
 .Signup a {
-  color: #73c2fb !important;
+  color: #fab44b !important;
 }
 .Signup a:hover {
-  color: #0073cf !important;
+  color: #fab44b !important;
 }
 
 @media only screen and (max-width: 760px) {
@@ -101,12 +101,12 @@
     font-size: 20px;
   }
   .nav-link {
-    border: 1px solid #6488ea;
+    border: 1px solid #fab44b;
     border-radius: 10px;
     margin: 2px 0px;
   }
   .nav-link:hover {
-    background-color: #6488ea;
+    background-color: #fab44b;
   }
   .Signup {
     border: none;
@@ -121,67 +121,131 @@ body {
 
   background-color: black;
   background-image: linear-gradient(315deg, #020403 0%, #0f0f0f 74%);
-  background-image: url("../assets/Images/fabric-of-squares.png");
-
+  background-image: url("../assets/Images/asfalt-light.png");
   font-family: "Raleway", sans-serif;
 }
-body h1 {
-  font-family: "Raleway", sans-serif;
-}
-section {
-  color: #b0e0e6;
-  padding: 60px 0;
-  overflow: hidden;
-}
 
+.About{
+    text-align: center;
+    margin: 8rem 0rem;
 
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
 }
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  font-family: "Raleway", sans-serif;
-  color: #6488ea;
+.About-heading{
+    font-size: 40px;
+    font-weight: bold;
 }
+.About-Para{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
 
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
+}
+@media only screen and  (max-width: 414px){
+    .About-Para{
+        width: 80%;
+        margin-left: 10%;
+ 
+    }
+}
+.Goal-col-1 img{
+    padding: 1rem;
+    width: 25rem;
+    height: 20rem;
 }
 
-.section-title h2::after {
-  font-family: "Raleway", sans-serif;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #b0e0e6;
-  bottom: 0;
-  left: calc(50% - 20px);
+.Goal{
+    margin: 10px;
+    text-align: left;
+}
+.Goal-Para{
+    color: white;
+}
+@media only screen and  (max-width: 414px){
+    .Goal-col-1 img{
+        width: 15rem;
+        height: 15rem;
+        margin-left: 40px;
+    }
+}
+@media only screen and  (max-width: 768px){
+    .Goal-col-1 img{
+        width: 15rem;
+        height: 15rem;
+ } 
+}
+.Team{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
 }
 
-.section-title p {
-  margin-bottom: 0;
+h3{
+    font-size: 25px;
+    color: #555;
+    font-weight: bold;
+}
+h5{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.Team .Team-heading{
+    font-size: 36px;
+}
+.Team .col{
+    margin-bottom: 40px;
+}
+.Team img{
+    width: 100px;
+    margin-top: -70px;
+}
+.Team i{
+    font-size: 26px;
+    color: #555;
+}
+.Team p{
+    font-weight: 500;
+}
+.Team .card{
+    width: 280px;
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #fab44b;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0,3s ease-in;
+}
+
+.Team .card:hover{
+    background-color: #fab44b;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(129, 129, 129);
+}
+.Team .card:hover h3, .Team .card:hover i{
+    color: #fff;
+}
+.Team #facebook:hover{
+    color: blue;
+}
+.Team #instagram:hover{
+    color: rgb(209, 56, 95);
+}
+.Team #linkedin:hover{
+    color: blue;
+}
+@media only screen and  (max-width: 414px){
+    .Team .card{
+        margin: 5rem 0rem 0rem 2.5rem;
+    }
+}
+@media only screen and  (max-width: 768px){
+    .Team .card{
+        margin: 5rem 0rem 0rem 2.5rem;
+    }
 }
 
 /* Footer */
 .footer{
-  background-color: #6488ea;
- 
+   background-color: #ffbd59;
   padding-top: 40px;
 }
 /* Segment one  */
@@ -204,7 +268,7 @@ section {
 }
 .segment-three h2:before{
   content: '|';
-  color: #E0A800;
+  color: black;
   padding-right: 10px;
 }
 .segment-three ul li a{
@@ -230,7 +294,7 @@ section {
 }
 .segment-two h2:before{
   content: '|';
-  color: #E0A800;
+  color: black;
   padding-right: 10px;
 }
 .segment-two ul{
@@ -239,7 +303,7 @@ section {
   list-style: none;
 }
 .segment-two ul li{
-  border-bottom: 1px solid #E0A800;
+  border-bottom: 1px solid black;
   line-height: 40px;
 }
 .segment-two ul li a{
@@ -281,7 +345,7 @@ section {
 color: blue;
 }
 #instagram:hover{
- color: rgb(209, 56, 95);
+ color: rgb(252, 7, 121);
 }
 
 /* Copyright */

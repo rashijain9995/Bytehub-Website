@@ -120,7 +120,7 @@
 body {
   background-color: black;
   background-image: linear-gradient(315deg, #020403 0%, #0f0f0f 74%);
-  background-image: url("../assets/Images/asfalt-light.png");
+  background-image: url("../assets/images/asfalt-light.png");
   font-family: "Raleway", sans-serif;
 }
 

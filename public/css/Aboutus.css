@@ -27,7 +27,7 @@
 
 #navbar {
   position: fixed;
-  top: -90px;;
+  top: -90px;
   display: block;
   transition: top 0.3s;
 }
@@ -55,7 +55,7 @@
   font-size: 20px;
 }
 .navbar-toggler {
-  color:#fab44b;
+  color: #fab44b;
 }
 .custom-toggler.navbar-toggler {
   border-color: rgb(250, 180, 75);
@@ -118,252 +118,247 @@
   }
 }
 body {
-
   background-color: black;
   background-image: linear-gradient(315deg, #020403 0%, #0f0f0f 74%);
-  background-image: url("../assets/Images/asfalt-light.png");
+  background-image: url("../assets/images/asfalt-light.png");
   font-family: "Raleway", sans-serif;
 }
 
-.About{
-    text-align: center;
-    margin: 8rem 0rem;
-
+.About {
+  text-align: center;
+  margin: 8rem 0rem;
 }
-.About-heading{
-    font-size: 40px;
-    font-weight: bold;
+.About-heading {
+  font-size: 40px;
+  font-weight: bold;
 }
-.About-Para{
-    width: 50%;
-    margin-left: 25%;
-    color: white;
-
+.About-Para {
+  width: 50%;
+  margin-left: 25%;
+  color: white;
 }
-@media only screen and  (max-width: 414px){
-    .About-Para{
-        width: 80%;
-        margin-left: 10%;
- 
-    }
+@media only screen and (max-width: 414px) {
+  .About-Para {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
-.Goal-col-1 img{
-    padding: 1rem;
-    width: 25rem;
-    height: 20rem;
+.Goal-col-1 img {
+  padding: 1rem;
+  width: 25rem;
+  height: 20rem;
 }
 
-.Goal{
-    margin: 10px;
-    text-align: left;
+.Goal {
+  margin: 10px;
+  text-align: left;
 }
-.Goal-Para{
-    color: white;
+.Goal-Para {
+  color: white;
 }
-@media only screen and  (max-width: 414px){
-    .Goal-col-1 img{
-        width: 15rem;
-        height: 15rem;
-        margin-left: 40px;
-    }
+@media only screen and (max-width: 414px) {
+  .Goal-col-1 img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 40px;
+  }
 }
-@media only screen and  (max-width: 768px){
-    .Goal-col-1 img{
-        width: 15rem;
-        height: 15rem;
- } 
+@media only screen and (max-width: 768px) {
+  .Goal-col-1 img {
+    width: 15rem;
+    height: 15rem;
+  }
 }
-.Team{
-    font-size: 14px;
-    font-weight: 400;
-    color: #777;
-}
-
-h3{
-    font-size: 25px;
-    color: #555;
-    font-weight: bold;
-}
-h5{
-    font-size: 16px;
-    color: #333;
-    font-weight: bold;
-}
-.Team .Team-heading{
-    font-size: 36px;
-}
-.Team .col{
-    margin-bottom: 40px;
-}
-.Team img{
-    width: 100px;
-    margin-top: -70px;
-}
-.Team i{
-    font-size: 26px;
-    color: #555;
-}
-.Team p{
-    font-weight: 500;
-}
-.Team .card{
-    width: 280px;
-    border-radius: 0;
-    box-shadow: 5px 5px 15px #fab44b;
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0,3s ease-in;
+.Team {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
 }
 
-.Team .card:hover{
-    background-color: #fab44b;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 5px 5px 10px rgb(129, 129, 129);
+h3 {
+  font-size: 25px;
+  color: #555;
+  font-weight: bold;
 }
-.Team .card:hover h3, .Team .card:hover i{
-    color: #fff;
+h5 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
 }
-.Team #facebook:hover{
-    color: blue;
+.Team .Team-heading {
+  font-size: 36px;
 }
-.Team #instagram:hover{
-    color: rgb(209, 56, 95);
+.Team .col {
+  margin-bottom: 40px;
 }
-.Team #linkedin:hover{
-    color: blue;
+.Team img {
+  width: 100px;
+  margin-top: -70px;
 }
-@media only screen and  (max-width: 414px){
-    .Team .card{
-        margin: 5rem 0rem 0rem 2.5rem;
-    }
+.Team i {
+  font-size: 26px;
+  color: #555;
 }
-@media only screen and  (max-width: 768px){
-    .Team .card{
-        margin: 5rem 0rem 0rem 2.5rem;
-    }
+.Team p {
+  font-weight: 500;
+}
+.Team .card {
+  width: 280px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #fab44b;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0, 3s ease-in;
+}
+
+.Team .card:hover {
+  background-color: #fab44b;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(129, 129, 129);
+}
+.Team .card:hover h3,
+.Team .card:hover i {
+  color: #fff;
+}
+.Team #facebook:hover {
+  color: blue;
+}
+.Team #instagram:hover {
+  color: rgb(209, 56, 95);
+}
+.Team #linkedin:hover {
+  color: blue;
+}
+@media only screen and (max-width: 414px) {
+  .Team .card {
+    margin: 5rem 0rem 0rem 2.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Team .card {
+    margin: 5rem 0rem 0rem 2.5rem;
+  }
 }
 
 /* Footer */
-.footer{
-   background-color: #ffbd59;
+.footer {
+  background-color: #ffbd59;
   padding-top: 40px;
 }
 /* Segment one  */
-.segment-three ul{
+.segment-three ul {
   margin-bottom: 25px;
   padding: 0;
-  list-style: none;  
+  list-style: none;
 }
-.segment-three{
+.segment-three {
   color: black;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;  
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
-.segment-three h2{
+.segment-three h2 {
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
-
 }
-.segment-three h2:before{
-  content: '|';
+.segment-three h2:before {
+  content: "|";
   color: black;
   padding-right: 10px;
 }
-.segment-three ul li a{
+.segment-three ul li a {
   color: black;
   text-decoration: none;
   padding: 20px;
-} 
-.segment-three ul li a:hover{
+}
+.segment-three ul li a:hover {
   color: white;
-}   
+}
 
 /* Segment Two  */
-.segment-two{
+.segment-two {
   margin-bottom: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.segment-two h2{
-    font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+.segment-two h2 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
-
 }
-.segment-two h2:before{
-  content: '|';
+.segment-two h2:before {
+  content: "|";
   color: black;
   padding-right: 10px;
 }
-.segment-two ul{
+.segment-two ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.segment-two ul li{
+.segment-two ul li {
   border-bottom: 1px solid black;
   line-height: 40px;
 }
-.segment-two ul li a{
+.segment-two ul li a {
   color: black;
   text-decoration: none;
 }
-.segment-two ul li a:hover{
-  color:white;
+.segment-two ul li a:hover {
+  color: white;
 }
 /* Segment one */
-.segment-one{
+.segment-one {
   margin-bottom: 2rem;
-  
 }
-.segment-one h2{
+.segment-one h2 {
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.segment-one a{
+.segment-one a {
   background: black;
   width: 40px;
   height: 40px;
   display: inline-block;
   border-radius: 50%;
 }
-.segment-one a:hover{
+.segment-one a:hover {
   background: white;
- 
 }
-.segment-one a i{
+.segment-one a i {
   font-size: 20px;
   color: #fff;
   padding: 10px 12px;
 }
-.segment-one a i:hover{
-color: blue;
+.segment-one a i:hover {
+  color: blue;
 }
-#instagram:hover{
- color: rgb(252, 7, 121);
+#instagram:hover {
+  color: rgb(252, 7, 121);
 }
 
 /* Copyright */
-#copyright{
+#copyright {
   padding-top: 15px;
-  text-align: center; 
-  margin-left: 12px; 
-} 
-#copyright a{
+  text-align: center;
+  margin-left: 12px;
+}
+#copyright a {
   text-decoration: none;
   color: black;
 }
-#copyright a:hover{
+#copyright a:hover {
   color: black;
 }
-#footerlinkheader::after,#Social::after,#Bytecode::after {
-    content: "";
-    background: #E0A800;
+#footerlinkheader::after,
+#Social::after,
+#Bytecode::after {
+  content: "";
+  background: #e0a800;
 }
 
 /* Footer */

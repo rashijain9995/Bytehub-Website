@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="public/Assets/Images/Logo.png" width="350" title="Bytehub">
+  <img src="public/Assets/images/By.png" width="350" title="Bytehub">
 </p>
 
 # Bytehub-Website
 
-Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits.  Bytehub as a platform for techies not only helps you learn &amp; grow together, but also helps you explore new opportunities!
+Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn &amp; grow together, but also helps you explore new opportunities!
 
 ## Getting Started
 
@@ -14,11 +14,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-* [npm](https://www.npmjs.com/get-npm)
-* [nodejs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-
+- [npm](https://www.npmjs.com/get-npm)
+- [nodejs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## How to run the website
+
 ```bash
 git clone https://github.com/Bytehub-Decoding-Future/Bytehub-Website.git
 cd Bytehub-Website
@@ -27,10 +27,11 @@ npm start
 ```
 
 Now browse to http://localhost:3000
+
 ## Built With
 
-* [NodeJs](https://nodejs.org/en/) 
-* [ExpressJs](https://expressjs.com/) - NodeJs framework
+- [NodeJs](https://nodejs.org/en/)
+- [ExpressJs](https://expressjs.com/) - NodeJs framework
 
 ## Contributors
 

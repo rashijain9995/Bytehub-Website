@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="public/assets/logo.png" width="350" title="Bytehub">
+<p align="center"><a href="https://test-bytehub.now.sh/" target="_blank"> 
+  <img src="public/assets/logo.png" width="350" title="Bytehub"></a>
 </p>
 
 # Bytehub-Website

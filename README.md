@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/Assets/images/By.png" width="350" title="Bytehub">
+  <img src="public/assets/logo.png" width="350" title="Bytehub">
 </p>
 
 # Bytehub-Website

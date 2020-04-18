@@ -15,7 +15,17 @@
   background: #0ae9c4;
   border-radius: 10px;
 }
-
+#myBtn {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  color: #fff;
+  background: black;
+  padding: 12px;
+  border-radius: 10px;
+}
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #0ae9c4;

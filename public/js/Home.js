@@ -7,15 +7,17 @@
 //     document.getElementsByClassName("service1").style.top = "-85px";
 //   }
 // }
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 285 || document.documentElement.scrollTop > 285) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-90px";
-  }
+if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("sidelogo").style.top = "0";
+} else {
+    document.getElementById("sidelogo").style.top = "-50px";
 }
+}
+
+
 
 function openNav() {
   document.getElementById("myNav").style.height = "100%";

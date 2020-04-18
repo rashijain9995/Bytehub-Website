@@ -54,6 +54,17 @@
   color: white !important;
   font-size: 20px;
 }
+#myBtn {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  color: #fff;
+  background: black;
+  padding: 12px;
+  border-radius: 10px;
+}
 .navbar-toggler {
   color: #fab44b;
 }

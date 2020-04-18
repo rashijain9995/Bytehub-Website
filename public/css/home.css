@@ -530,7 +530,7 @@ h4 {
 
 /* .section-4 {
   background-color: #050a22;
-  background-image: url("../assets/images/img/texture.png");
+  background-image: url("../assets/Images/img/texture.png");
   font-family: "Raleway", sans-serif;
 } */
 h2 {
@@ -846,5 +846,15 @@ h2::after {
   content: "";
   background: #050a22;
 }
-
+#myBtn {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  color: #fff;
+  background: black;
+  padding: 12px;
+  border-radius: 10px;
+}
 /* *********************** Footer Ends *****************************  */

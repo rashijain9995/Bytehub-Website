@@ -274,6 +274,9 @@
                 </div>
             </div>
         </footer>
+        <div class="scrolltop float-right">
+            <i class="fa=3x fas fa-arrow-circle-up" onclick="topFunction()" id="myBtn"></i>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
         <script src="../plugins/bootstrap-4.3.1-dist/js/jquery.js"></script>
         <script src="../plugins/bootstrap-4.3.1-dist/js/popper.min.js"></script>
@@ -286,7 +289,6 @@
       });
     </script> -->
         <script>
-
             window.onscroll = function () { scrollFunction() };
 
             function scrollFunction() {
@@ -296,30 +298,40 @@
                     document.getElementById("navbar").style.top = "-90px";
                 }
             }
-            !(function ($) {
-                "use strict";
-                // Back to top button
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 100) {
-                        $('.back-to-top').fadeIn('slow');
-                    } else {
-                        $('.back-to-top').fadeOut('slow');
-                    }
-                });
-                $('.back-to-top').click(function () {
-                    $('html, body').animate({
-                        scrollTop: 0
-                    }, 1500, 'easeInOutExpo');
-                    return false;
-                });
-                // Initi AOS
-                AOS.init({
-                    duration: 800,
-                    easing: "ease-in-out"
-                });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.back-to-top').fadeIn('slow');
+                } else {
+                    $('.back-to-top').fadeOut('slow');
+                }
+            });
+            $('.back-to-top').click(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1500, 'easeInOutExpo');
+                return false;
+            });
+            AOS.init({
+                duration: 800,
+                easing: "ease-in-out"
+            });
+            mybutton = document.getElementById("myBtn");
 
-            })(jQuery);
-            app.get(htmlExt('school'), controller.web.school);
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunctiion() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = 'block';
+                } else {
+                    mybutton.style.display = 'none';
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
         </script>
 </body>
 

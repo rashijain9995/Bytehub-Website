@@ -311,7 +311,6 @@ h5 {
 }
 .bg-footer a {
   color: #fff;
-  
 }
 .bg-footer a:hover {
   color: #40dfcc;
@@ -343,12 +342,13 @@ footer .links2 {
 .links2 h4 {
   color: transparent;
 }
-#Facebook:hover,#Twitter:hover,#linkedin:hover{
+#Facebook:hover,
+#Twitter:hover,
+#linkedin:hover {
   color: blue;
 }
-#Instagram:hover{
-  color:rgb(235, 4, 100)
+#Instagram:hover {
+  color: rgb(235, 4, 100);
 }
-
 
 /* Footer */

@@ -1,741 +1,890 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!"
+    />
+    <meta name="keywords" content="ByteHub, ByteHubIndia, ByteHub India" />
+    <meta name="author" content="BytehubIndia" />
+    <link rel="shortcut icon" href="./assets/logo.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!" />
-  <meta name="keywords" content="ByteHub, ByteHubIndia, ByteHub India" />
-  <meta name="author" content="BytehubIndia" />
-  <link rel="shortcut icon" href="./assets/logo.png" />
+    <!-- Facebook -->
+    <meta property="og:url" content="https://www.bytehub.in/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Bytehub India" />
+    <meta
+      property="og:description"
+      content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!"
+    />
+    <meta property="og:image" content="images/logo_coloured_white_text.svg" />
 
-  <!-- Facebook -->
-  <meta property="og:url" content="https://www.bytehub.in/" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Bytehub India" />
-  <meta property="og:description"
-    content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!" />
-  <meta property="og:image" content="images/logo_coloured_white_text.svg" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card"
-    content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!" />
-  <meta name="twitter:creator" content="Team Bytehub" />
-  <meta name="twitter:site" content="https://www.bytehub.in/" />
-  <meta name="twitter:title" content="Bytehub India" />
-  <meta name="twitter:description"
-    content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits." />
-  <!-- <meta
+    <!-- Twitter -->
+    <meta
+      name="twitter:card"
+      content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn & grow together, but also helps you explore new opportunities!"
+    />
+    <meta name="twitter:creator" content="Team Bytehub" />
+    <meta name="twitter:site" content="https://www.bytehub.in/" />
+    <meta name="twitter:title" content="Bytehub India" />
+    <meta
+      name="twitter:description"
+      content="Bytehub is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits."
+    />
+    <!-- <meta
       name="twitter:image:src"
       content="images/logo_coloured_white_text.svg"
     /> -->
-  <meta name="twitter:image:width" content="312" />
-  <meta name="twitter:image:height" content="141" />
-  <meta name="og:title" property="og:title" content="ByteHub India" />
-  <meta name="robots" content="index, follow" />
+    <meta name="twitter:image:width" content="312" />
+    <meta name="twitter:image:height" content="141" />
+    <meta name="og:title" property="og:title" content="ByteHub India" />
+    <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/home.css" />
-  <link rel="stylesheet" href="css/login-register.css" />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="plugins/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css" />
-  <title>Home | Bytehub</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/login-register.css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="plugins/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"
+    />
+    <title>Home | Bytehub</title>
+  </head>
 
-<body>
-  <div id="sidelogo">
-    <a href="#"><img src="assets/images/Bytehubblack.png" alt="" srcset="" width="60%" /></a>
-  </div>
+  <body>
+    <div id="sidelogo">
+      <a href="#"
+        ><img src="assets/images/Bytehubblack.png" alt="" srcset="" width="60%"
+      /></a>
+    </div>
 
-  <!-- *********************** Header Start ***************************** -->
+    <!-- *********************** Header Start ***************************** -->
 
-  <div class="header" id="topheader">
-    <div id="particles-js"></div>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="header" id="topheader">
+      <div id="particles-js"></div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/about_us.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/media.html">Media</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/student.html">Student</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/school.html">School</a>
-          </li>
-          <li class="nav-item Signin">
-            <a class="nav-link Signin-link" href="#" data-toggle="modal" href="javascript:void(0)"
-              onclick="openLoginModal();">Login</a>
-          </li>
-          <li class="nav-item Signup">
-            <a class="nav-link Signup-link" data-toggle="modal" href="javascript:void(0)"
-              onclick="openRegisterModal();">Register</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about_us.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/media.html">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/student.html">Student</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/school.html">School</a>
+            </li>
+            <li class="nav-item Signin">
+              <a
+                class="nav-link Signin-link"
+                href="#"
+                data-toggle="modal"
+                href="javascript:void(0)"
+                onclick="openLoginModal();"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item Signup">
+              <a
+                class="nav-link Signup-link"
+                data-toggle="modal"
+                href="javascript:void(0)"
+                onclick="openRegisterModal();"
+                >Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="header-section">
+        <div class="center-div">
+          <h1 class="font-weight-bold Bytehub" data-aos="flip-down">
+            Byte<span id="hub">hub</span>
+          </h1>
+          <p class="subtitle bottom-text" data-aos="zoom-in">
+            <span>Decoding Future</span>
+          </p>
+          <p data-aos="zoom-out">
+            Together we learn, Together we grow, Together we are a part of the
+            innovation.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- *********************** Header Ends ***************************** -->
+
+    <!-- *********************** Login-Signup Model Starts ***************************** -->
+    <div class="container">
+      <div class="modal fade login" id="loginModal">
+        <div class="modal-dialog login animated">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p style="text-align: center;">Login with</p>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="box">
+                <div class="content">
+                  <div class="social">
+                    <a class="circle github" href="#">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a id="google_login" class="circle google" href="#">
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="#" class="circle facebook">
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+                  </div>
+                  <div class="division">
+                    <div class="line l"></div>
+                    <span>or</span>
+                    <div class="line r"></div>
+                  </div>
+                  <div class="error"></div>
+                  <div class="form loginBox">
+                    <form method="" action="" accept-charset="UTF-8">
+                      <input
+                        id="login-email"
+                        class="form-control"
+                        type="text"
+                        placeholder="Email"
+                        name="email"
+                      />
+                      <input
+                        id="login-password"
+                        class="form-control"
+                        type="password"
+                        placeholder="Password"
+                        name="password"
+                      />
+                      <button
+                        class="btn-login"
+                        type="button"
+                        value="Login"
+                        onclick="loginAjax()"
+                      >
+                        Login
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content registerBox" style="display: none;">
+                  <div class="form">
+                    <form
+                      method=""
+                      html="{:multipart=>true}"
+                      data-remote="true"
+                      action=""
+                      accept-charset="UTF-8"
+                    >
+                      <input
+                        id="email"
+                        class="form-control"
+                        type="text"
+                        placeholder="Email"
+                        name="email"
+                      />
+                      <input
+                        id="password"
+                        class="form-control"
+                        type="password"
+                        placeholder="Password"
+                        name="password"
+                      />
+                      <input
+                        id="password_confirmation"
+                        class="form-control"
+                        type="password"
+                        placeholder="Retype Password"
+                        name="password_confirmation"
+                      />
+                      <input
+                        class="btn-default btn-register"
+                        type="button"
+                        value="Create account"
+                        name="commit"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="forgot login-footer">
+                <span
+                  >Looking to
+                  <a href="javascript: showRegisterForm();"
+                    >create an account</a
+                  >
+                  ?</span
+                >
+              </div>
+              <div class="forgot register-footer" style="display: none;">
+                <span>Already have an account?</span>
+                <a href="javascript: showLoginForm();">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <section class="header-section">
-      <div class="center-div">
-        <h1 class="font-weight-bold Bytehub" data-aos="flip-down">
-          Byte<span id="hub">hub</span>
-        </h1>
-        <p class="subtitle bottom-text" data-aos="zoom-in">
-          <span>Decoding Future</span>
-        </p>
-        <p data-aos="zoom-out">
-          Together we learn, Together we grow, Together we are a part of the
-          innovation.
-        </p>
+    </div>
+
+    <!-- *********************** Login-Signup Model Ends ***************************** -->
+
+    <!-- *********************** What we do? Starts ***************************** -->
+    <section class="Whatwedo py-5">
+      <div class="container">
+        <div
+          class="Whatwedo-heading py-3 animated bounce infinite"
+          data-aos="zoom-in"
+        >
+          <h2>What do we do?</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-timeline">
+              <div class="timeline" data-aos="fade-right">
+                <a href="" class="timeline-content">
+                  <div class="timeline-icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <h3 class="title">Platform</h3>
+                  <h6>(INVOLVE,INDULGE,INNOVATE)</h6>
+                  <p class="description">
+                    Bytehub is one of the largest learning and competition
+                    platform.
+                  </p>
+                </a>
+              </div>
+              <div class="timeline" data-aos="fade-left">
+                <a href="" class="timeline-content">
+                  <div class="timeline-icon">
+                    <i class="fas fa-laptop-code"></i>
+                  </div>
+                  <h3 class="title">Hack</h3>
+                  <h6>(CODE,BUILD,HACK)</h6>
+                  <p class="description">
+                    Unleash your inner Hacker,programmer and competitor and be a
+                    part of the most engaged student coding/innovating
+                    community.
+                  </p>
+                </a>
+              </div>
+              <div class="timeline" data-aos="fade-right">
+                <a href="" class="timeline-content">
+                  <div class="timeline-icon">
+                    <i class="fas fa-industry"></i>
+                  </div>
+                  <h3 class="title">Industry connect</h3>
+                  <h6>(LEARN,COMPETE,CONNECT)</h6>
+                  <p class="description">
+                    Bytehub is the leading industry connect platform for Schools
+                    and engineering STUDENTS.
+                  </p>
+                </a>
+              </div>
+              <div class="timeline" data-aos="fade-left">
+                <a href="" class="timeline-content">
+                  <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h3 class="title">Future Opportunities</h3>
+                  <h6>(SCREEN,SKILL,GROW)</h6>
+                  <p class="description">
+                    Enhance your skills being a part of the largest growing
+                    technical community and direct your career towards the right
+                    path
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-  </div>
-  <!-- *********************** Header Ends ***************************** -->
+    <!-- *********************** What we do? Ends ***************************** -->
 
-  <!-- *********************** Login-Signup Model Starts ***************************** -->
-  <div class="container">
-    <div class="modal fade login" id="loginModal">
-      <div class="modal-dialog login animated">
-        <div class="modal-content">
-          <div class="modal-header">
-            <p style="text-align: center;">Login with</p>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-              &times;
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="box">
-              <div class="content">
-                <div class="social">
-                  <a class="circle github" href="#">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a id="google_login" class="circle google" href="#">
-                    <i class="fab fa-google-plus-g"></i>
-                  </a>
-                  <a href="#" class="circle facebook">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </div>
-                <div class="division">
-                  <div class="line l"></div>
-                  <span>or</span>
-                  <div class="line r"></div>
-                </div>
-                <div class="error"></div>
-                <div class="form loginBox">
-                  <form method="" action="" accept-charset="UTF-8">
-                    <input id="login-email" class="form-control" type="text" placeholder="Email" name="email" />
-                    <input id="login-password" class="form-control" type="password" placeholder="Password"
-                      name="password" />
-                    <button class="btn-login" type="button" value="Login" onclick="loginAjax()">
-                      Login
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="content registerBox" style="display: none;">
-                <div class="form">
-                  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
-                    <input id="email" class="form-control" type="text" placeholder="Email" name="email" />
-                    <input id="password" class="form-control" type="password" placeholder="Password" name="password" />
-                    <input id="password_confirmation" class="form-control" type="password" placeholder="Retype Password"
-                      name="password_confirmation" />
-                    <input class="btn-default btn-register" type="button" value="Create account" name="commit" />
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <div class="forgot login-footer">
-              <span>Looking to
-                <a href="javascript: showRegisterForm();">create an account</a>
-                ?</span>
-            </div>
-            <div class="forgot register-footer" style="display: none;">
-              <span>Already have an account?</span>
-              <a href="javascript: showLoginForm();">Login</a>
-            </div>
-          </div>
-        </div>
+    <!-- *********************** What For you? Starts ***************************** -->
+    <section class="WhatForyou py-5">
+      <div class="Whatwedo-heading py-3" data-aos="zoom-in">
+        <h2>What is there for you?</h2>
       </div>
-    </div>
-  </div>
-
-  <!-- *********************** Login-Signup Model Ends ***************************** -->
-
-  <!-- *********************** What we do? Starts ***************************** -->
-  <section class="Whatwedo py-5">
-    <div class="container">
-      <div class="Whatwedo-heading py-3 animated bounce infinite" data-aos="zoom-in">
-        <h2>What do we do?</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-timeline">
-            <div class="timeline" data-aos="fade-right">
-              <a href="" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fas fa-book"></i>
-                </div>
-                <h3 class="title">Platform</h3>
-                <h6>(INVOLVE,INDULGE,INNOVATE)</h6>
-                <p class="description">
-                  Bytehub is one of the largest learning and competition
-                  platform.
-                </p>
-              </a>
-            </div>
-            <div class="timeline" data-aos="fade-left">
-              <a href="" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fas fa-laptop-code"></i>
-                </div>
-                <h3 class="title">Hack</h3>
-                <h6>(CODE,BUILD,HACK)</h6>
-                <p class="description">
-                  Unleash your inner Hacker,programmer and competitor and be a
-                  part of the most engaged student coding/innovating
-                  community.
-                </p>
-              </a>
-            </div>
-            <div class="timeline" data-aos="fade-right">
-              <a href="" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fas fa-industry"></i>
-                </div>
-                <h3 class="title">Industry connect</h3>
-                <h6>(LEARN,COMPETE,CONNECT)</h6>
-                <p class="description">
-                  Bytehub is the leading industry connect platform for Schools
-                  and engineering STUDENTS.
-                </p>
-              </a>
-            </div>
-            <div class="timeline" data-aos="fade-left">
-              <a href="" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fas fa-graduation-cap"></i>
-                </div>
-                <h3 class="title">Future Opportunities</h3>
-                <h6>(SCREEN,SKILL,GROW)</h6>
-                <p class="description">
-                  Enhance your skills being a part of the largest growing
-                  technical community and direct your career towards the right
-                  path
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- *********************** What we do? Ends ***************************** -->
-
-  <!-- *********************** What For you? Starts ***************************** -->
-  <section class="WhatForyou py-5">
-    <div class="Whatwedo-heading py-3" data-aos="zoom-in">
-      <h2>What is there for you?</h2>
-    </div>
-    <div class="container py-5">
-      <div class="row">
-        <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-left">
-          <a href="#"><i class="fa-3x fasclass fas fa-hands-helping"></i></a>
-          <h4>Join</h4>
-          <p>
-            Be a part of INDIA's one of the largest growing community of
-            technical enthusiasts.
-          </p>
-        </div>
-        <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-right">
-          <a href="#"><i class="fa-3x fasclass fas fa-search-plus"></i></a>
-          <h4>Find your interest</h4>
-          <p>Be the Developer you choose to be.</p>
-        </div>
-        <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-left">
-          <a href="#"><i class="fa-3x fasclass fas fa-chalkboard-teacher"></i></a>
-          <h4>Learn</h4>
-          <p>
-            With the help of corporate professionals enhance your
-            skills,innovate and get rewarded.
-          </p>
-        </div>
-        <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-right">
-          <a href="#"><i class="fa-3x fasclass fas fa-smile-wink"></i></a>
-          <h4>Easy TO USE</h4>
-          <p>
-            Compete,Discover and stand out.<br />
-            Be known in the community with your expertise.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- *********************** What For you? Ends ***************************** -->
-
-  <!-- *********************** Testimonials *********************** -->
-  <section class="section-4 py-5">
-    <div class="Whatwedo-heading py-3" data-aos="zoom-in">
-      <h2>Testimonials</h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Carousel indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for carousel items -->
-            <div class="carousel-inner">
-              <div class="item carousel-item active">
-                <div class="row">
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nam eu sem tempor, varius quam at, luctus dui.
-                        Mauris magna metus, dapibus nec turpis vel, semper
-                        malesuada ante.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>Paula Wilson</b></div>
-                          <div class="details">Media Analyst / SkyNet</div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Vestibulum quis quam ut magna consequat faucibu. Eget
-                        mi suscipit tincidunt. Utmtc tempus dictum.
-                        Pellentesque virra. Quis quam ut magna consequat
-                        faucibus quam.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>Antonio Moreno</b></div>
-                          <div class="details">Web Developer / SoftBee</div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item carousel-item">
-                <div class="row">
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nam eu sem tempor, varius quam at, luctus dui.
-                        Mauris magna metus, dapibus nec turpis vel, semper
-                        malesuada ante.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>Michael Holz</b></div>
-                          <div class="details">Web Developer / DevCorp</div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Vestibulum quis quam ut magna consequat faucibu. Eget
-                        mi suscipit tincidunt. Utmtc tempus dictum.
-                        Pellentesque virra. Quis quam ut magna consequat
-                        faucibus quam.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>Mary Saveley</b></div>
-                          <div class="details">
-                            Graphic Designer / MarsMedia
-                          </div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item carousel-item">
-                <div class="row">
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nam eu sem tempor, varius quam at, luctus dui.
-                        Mauris magna metus, dapibus nec turpis vel, semper
-                        malesuada ante.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>Martin Sommer</b></div>
-                          <div class="details">SEO Analyst / RealSearch</div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6" data-aos="zoom-out-down">
-                    <div class="testimonial">
-                      <p>
-                        Vestibulum quis quam ut magna consequat faucibu. Eget
-                        mi suscipit tincidunt. Utmtc tempus dictum.
-                        Pellentesque virra. Quis quam ut magna consequat
-                        faucibus quam.
-                      </p>
-                    </div>
-                    <div class="media">
-                      <div class="media-left d-flex mr-3">
-                        <img src="assets/images/user.jpg" alt="" />
-                      </div>
-                      <div class="media-body">
-                        <div class="overview">
-                          <div class="name"><b>John Williams</b></div>
-                          <div class="details">
-                            Web Designer / UniqueDesign
-                          </div>
-                          <div class="star-rating">
-                            <ul class="list-inline">
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star"></i>
-                              </li>
-                              <li class="list-inline-item">
-                                <i class="fa fa-star-o"></i>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Carousel controls -->
-            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-              <i class="fa fa-chevron-left"></i>
-            </a>
-            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-              <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- *********************** Testimonials Ends *********************** -->
-
-  <!-- *********************** Footer Starts *********************** -->
-
-  <footer>
-    <div class="footer bg-footer section border-bottom pt-4">
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
-          <div class="col-12 col-md-6 pl-2 pr-3">
-            <ul class="list-unstyled mt-5">
-              <a class="logo-footer" href=""><img class="img-fluid mb-4" src="./assets/images/bytehub(2).png"
-                  alt="logo" /></a>
-            </ul>
-            <p style="color: #40dfcc; font-weight: 300;">
-              Bytehub is a community of like-minded technology enthusiasts,
-              students and professionals who help each other to push their
-              limits.
+          <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-left">
+            <a href="#"><i class="fa-3x fasclass fas fa-hands-helping"></i></a>
+            <h4>Join</h4>
+            <p>
+              Be a part of INDIA's one of the largest growing community of
+              technical enthusiasts.
             </p>
           </div>
-          <div class="col-12 col-md-3">
-            <h4 class="text-white pt-2"><i class="fas fa-link"></i> Links</h4>
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <a class="text-color" href="./pages/about_us.html">About us</a>
-              </li>
-              <li class="mb-3">
-                <a class="text-color" href="./pages/student.html">Student</a>
-              </li>
-              <li class="mb-3">
-                <a class="text-color" href="./pages/school.html">Schools</a>
-              </li>
-            </ul>
+          <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-right">
+            <a href="#"><i class="fa-3x fasclass fas fa-search-plus"></i></a>
+            <h4>Find your interest</h4>
+            <p>Be the Developer you choose to be.</p>
           </div>
-          <div class="col-12 col-md-3">
-            <h4 class="text-white pt-2">
-              <i class="fa fa-id-card"></i> Contact us
-            </h4>
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <a class="text-color" href="#">
-                  <span class="fa fa-phone"></span>&nbsp
-                  <a href="tel:+91 70148 81251">+91 70148 81251</a></a>
-              </li>
-              <li class="mb-3">
-                <a class="text-color" href="#"><i class="fas fa-envelope"></i>&nbsp
-                  <a href="mailto:bytehub@yahoo.com" class="mail">
-                    bytehub@yahoo.com</a></a>
-              </li>
-            </ul>
-            <div class="quicklinks">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a class="d-inline-block p-2" href="https://www.facebook.com/bytehubIndia"><i
-                      class="fa-2x fab fa-facebook-square" id="Facebook"></i>
-                  </a>
+          <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-left">
+            <a href="#"
+              ><i class="fa-3x fasclass fas fa-chalkboard-teacher"></i
+            ></a>
+            <h4>Learn</h4>
+            <p>
+              With the help of corporate professionals enhance your
+              skills,innovate and get rewarded.
+            </p>
+          </div>
+          <div class="extra-div col-lg-3 col-md-4 col-12" data-aos="flip-right">
+            <a href="#"><i class="fa-3x fasclass fas fa-smile-wink"></i></a>
+            <h4>Easy TO USE</h4>
+            <p>
+              Compete,Discover and stand out.<br />
+              Be known in the community with your expertise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********************** What For you? Ends ***************************** -->
+
+    <!-- *********************** Testimonials *********************** -->
+    <section class="section-4 py-5">
+      <div class="Whatwedo-heading py-3" data-aos="zoom-in">
+        <h2>Testimonials</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nam eu sem tempor, varius quam at, luctus dui.
+                          Mauris magna metus, dapibus nec turpis vel, semper
+                          malesuada ante.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Paula Wilson</b></div>
+                            <div class="details">Media Analyst / SkyNet</div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Vestibulum quis quam ut magna consequat faucibu. Eget
+                          mi suscipit tincidunt. Utmtc tempus dictum.
+                          Pellentesque virra. Quis quam ut magna consequat
+                          faucibus quam.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Antonio Moreno</b></div>
+                            <div class="details">Web Developer / SoftBee</div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item carousel-item">
+                  <div class="row">
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nam eu sem tempor, varius quam at, luctus dui.
+                          Mauris magna metus, dapibus nec turpis vel, semper
+                          malesuada ante.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Michael Holz</b></div>
+                            <div class="details">Web Developer / DevCorp</div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Vestibulum quis quam ut magna consequat faucibu. Eget
+                          mi suscipit tincidunt. Utmtc tempus dictum.
+                          Pellentesque virra. Quis quam ut magna consequat
+                          faucibus quam.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Mary Saveley</b></div>
+                            <div class="details">
+                              Graphic Designer / MarsMedia
+                            </div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item carousel-item">
+                  <div class="row">
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nam eu sem tempor, varius quam at, luctus dui.
+                          Mauris magna metus, dapibus nec turpis vel, semper
+                          malesuada ante.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Martin Sommer</b></div>
+                            <div class="details">SEO Analyst / RealSearch</div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-out-down">
+                      <div class="testimonial">
+                        <p>
+                          Vestibulum quis quam ut magna consequat faucibu. Eget
+                          mi suscipit tincidunt. Utmtc tempus dictum.
+                          Pellentesque virra. Quis quam ut magna consequat
+                          faucibus quam.
+                        </p>
+                      </div>
+                      <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/images/user.jpg" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>John Williams</b></div>
+                            <div class="details">
+                              Web Designer / UniqueDesign
+                            </div>
+                            <div class="star-rating">
+                              <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                  <i class="fa fa-star-o"></i>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a
+                class="carousel-control left carousel-control-prev"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="fa fa-chevron-left"></i>
+              </a>
+              <a
+                class="carousel-control right carousel-control-next"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********************** Testimonials Ends *********************** -->
+
+    <!-- *********************** Footer Starts *********************** -->
+
+    <footer>
+      <div class="footer bg-footer section border-bottom pt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 pl-2 pr-3">
+              <ul class="list-unstyled mt-5">
+                <a class="logo-footer" href=""
+                  ><img
+                    class="img-fluid mb-4"
+                    src="./assets/images/bytehub(2).png"
+                    alt="logo"
+                /></a>
+              </ul>
+              <p style="color: #40dfcc; font-weight: 300;">
+                Bytehub is a community of like-minded technology enthusiasts,
+                students and professionals who help each other to push their
+                limits.
+              </p>
+            </div>
+            <div class="col-12 col-md-3">
+              <h4 class="text-white pt-2"><i class="fas fa-link"></i> Links</h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <a class="text-color" href="./pages/about_us.html"
+                    >About us</a
+                  >
                 </li>
-                <li class="list-inline-item">
-                  <a class="d-inline-block p-2" href="https://twitter.com/Bytehub3?s=09"><i
-                      class="fa-2x fab fa-twitter-square" id="Twitter"></i>
-                  </a>
+                <li class="mb-3">
+                  <a class="text-color" href="./pages/student.html">Student</a>
                 </li>
-                <li class="list-inline-item">
-                  <a class="d-inline-block p-2"
-                    href="https://www.instagram.com/invites/contact/?i=1670ydp40aszp&utm_content=ew1nonx"><i
-                      class="fa-2x fab fa-instagram-square" id="Instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="d-inline-block p-2" href="https://www.linkedin.com/company/bytehub-india/"><i
-                      class="fa-2x fab fa-linkedin" id="linkedin"></i>
-                  </a>
+                <li class="mb-3">
+                  <a class="text-color" href="./pages/school.html">Schools</a>
                 </li>
               </ul>
             </div>
+            <div class="col-12 col-md-3">
+              <h4 class="text-white pt-2">
+                <i class="fa fa-id-card"></i> Contact us
+              </h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <a class="text-color" href="#">
+                    <span class="fa fa-phone"></span>&nbsp
+                    <a href="tel:+91 70148 81251">+91 70148 81251</a></a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a class="text-color" href="#"
+                    ><i class="fas fa-envelope"></i>&nbsp
+                    <a href="mailto:bytehub@yahoo.com" class="mail">
+                      bytehub@yahoo.com</a
+                    ></a
+                  >
+                </li>
+              </ul>
+              <div class="quicklinks">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      class="d-inline-block p-2"
+                      href="https://www.facebook.com/bytehubIndia"
+                      ><i
+                        class="fa-2x fab fa-facebook-square"
+                        id="Facebook"
+                      ></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="d-inline-block p-2"
+                      href="https://twitter.com/Bytehub3?s=09"
+                      ><i class="fa-2x fab fa-twitter-square" id="Twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="d-inline-block p-2"
+                      href="https://www.instagram.com/invites/contact/?i=1670ydp40aszp&utm_content=ew1nonx"
+                      ><i
+                        class="fa-2x fab fa-instagram-square"
+                        id="Instagram"
+                      ></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="d-inline-block p-2"
+                      href="https://www.linkedin.com/company/bytehub-india/"
+                      ><i class="fa-2x fab fa-linkedin" id="linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="copyright py-4 bg-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7 text-sm-left text-center">
-            <p class="mb-0" style="color: #fff; font-weight: 300;">
-              <i class="fas fa-copyright"></i>
-              <script>
-                var CurrentYear = new Date().getFullYear();
-                document.write(CurrentYear);
-              </script>
-              ByteHub. All rights reserved | Design by ByteHub
-            </p>
+      <div class="copyright py-4 bg-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7 text-sm-left text-center">
+              <p class="mb-0" style="color: #fff; font-weight: 300;">
+                <i class="fas fa-copyright"></i>
+                <script>
+                  var CurrentYear = new Date().getFullYear();
+                  document.write(CurrentYear);
+                </script>
+                ByteHub. All rights reserved | Design by ByteHub
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </footer>
+    <div class="scrolltop float-right">
+      <i
+        class="fa=3x fas fa-arrow-circle-up"
+        onclick="topFunction()"
+        id="myBtn"
+      ></i>
     </div>
-  </footer>
-  <div class="scrolltop float-right">
-    <i class="fa=3x fas fa-arrow-circle-up" onclick="topFunction()" id="myBtn"></i>
-  </div>
-  <!-- *********************** Footer Ends *********************** -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script src="plugins/bootstrap-4.3.1-dist/js/particles.js"></script>
-  <script src="plugins/bootstrap-4.3.1-dist/js/app.js"></script>
-  <script src="js/login-register.js"></script>
-  <script src="js/home.js"></script>
-  <!-- Un-Comment this if you want to directly open login-signup model after reload -->
-  <!-- <script type="text/javascript">
+    <!-- *********************** Footer Ends *********************** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="plugins/bootstrap-4.3.1-dist/js/particles.js"></script>
+    <script src="plugins/bootstrap-4.3.1-dist/js/app.js"></script>
+    <script src="js/login-register.js"></script>
+    <script src="js/home.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151051190-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-151051190-1");
+    </script>
+
+    <!-- Un-Comment this if you want to directly open login-signup model after reload -->
+    <!-- <script type="text/javascript">
       $(document).ready(function () {
         openLoginModal();
       });
     </script> -->
 
-  <script>
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeOut("slow");
+    <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $(".back-to-top").fadeIn("slow");
+        } else {
+          $(".back-to-top").fadeOut("slow");
+        }
+      });
+      $(".back-to-top").click(function () {
+        $("html, body").animate(
+          {
+            scrollTop: 0,
+          },
+          1500,
+          "easeInOutExpo"
+        );
+        return false;
+      });
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+      });
+
+      mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunctiion() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
       }
-    });
-    $(".back-to-top").click(function () {
-      $("html, body").animate(
-        {
-          scrollTop: 0,
-        },
-        1500,
-        "easeInOutExpo"
-      );
-      return false;
-    });
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-    });
 
-    mybutton = document.getElementById("myBtn");
-
-    window.onscroll = function () {
-      scrollFunction();
-    };
-
-    function scrollFunctiion() {
-      if (
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-      ) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
       }
-    }
-
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

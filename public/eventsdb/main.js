@@ -1,4 +1,4 @@
-// Initialize Firebase (ADD YOUR OWN DATA)
+// Initialize Firebase 
 var config = {
   apiKey: "AIzaSyA4034AE739cWDIpc--Fh4-ADSrB2bC-J8",
   authDomain: "bytehubindia-6083a.firebaseapp.com",
@@ -11,8 +11,9 @@ var config = {
 };
 firebase.initializeApp(config);
 firebase.analytics();
-// Reference messages collection
-var messagesRef = firebase.database().ref('messages');
+
+// Reference EventData collection
+var EventDataRef = firebase.database().ref('EventData');
 
 // Listen for form submit
 document.getElementById('EventForm').addEventListener('submit', submitForm);
@@ -38,7 +39,7 @@ function submitForm(e) {
   // Hide alert after 3 seconds
   setTimeout(function () {
     document.querySelector('.alert').style.display = 'none';
-  }, 3000);
+  }, 10000);
 
   // Clear form
   document.getElementById('EventForm').reset();
@@ -51,7 +52,7 @@ function getInputVal(id) {
 
 // Save message to firebase
 function saveMessage(name, company, email, phone, message, college) {
-  var newMessageRef = messagesRef.push();
+  var newMessageRef = EventDataRef.push();
   newMessageRef.set({
     name: name,
     company: company,

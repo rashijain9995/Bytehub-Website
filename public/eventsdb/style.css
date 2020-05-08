@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Raleway", sans-serif;
   /* background: #92bde7; */
   color: #485e74;
   line-height: 1.6;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1em;
 }
 

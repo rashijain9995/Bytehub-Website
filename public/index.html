@@ -64,6 +64,7 @@
 
     gtag("config", "UA-151051190-1");
   </script>
+  <script type="text/javascript" src="signup.js"></script>
 
 </head>
 
@@ -177,12 +178,12 @@
             <div class="box">
               <div class="content registerBox" style="display: none;">
                 <div class="form">
-                  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+                  <form id="RegisterForm" html="{:multipart=>true}" accept-charset="UTF-8">
                     <input id="email" class="form-control" type="text" placeholder="Email" name="email" />
                     <input id="password" class="form-control" type="password" placeholder="Password" name="password" />
-                    <input id="password_confirmation" class="form-control" type="password" placeholder="Retype Password"
+                    <input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password"
                       name="password_confirmation" />
-                    <input class="btn-default btn-register" type="button" value="Create account" name="commit" />
+                    <input class="btn-default btn-register" id="RegisterForm" type="submit" onclick="signUp()" value="Create account" name="commit" />
                   </form>
                 </div>
               </div>
@@ -758,5 +759,31 @@
     }
   </script>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+<!-- 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA4034AE739cWDIpc--Fh4-ADSrB2bC-J8",
+    authDomain: "bytehubindia-6083a.firebaseapp.com",
+    databaseURL: "https://bytehubindia-6083a.firebaseio.com",
+    projectId: "bytehubindia-6083a",
+    storageBucket: "bytehubindia-6083a.appspot.com",
+    messagingSenderId: "853900768803",
+    appId: "1:853900768803:web:ff78dd335471ad263c6396",
+    measurementId: "G-MTPCVDR2FX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script> -->
 
 </html>

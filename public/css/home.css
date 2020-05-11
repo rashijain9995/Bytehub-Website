@@ -54,6 +54,151 @@ h4 {
   word-wrap: 4px;
   font-weight: bold;
 }
+
+/* *********************** Events start *****************************  */
+
+
+.events-heading{
+  text-align: center;
+}
+.order-card {
+  color: black;
+}
+
+.bg-c-1 {
+  background-image: linear-gradient( to right,
+  rgba(226, 223, 64, 0.6),
+  rgba(12, 146, 235, 0.6)
+),
+ url("/images/work.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.bg-c-2 {
+  background-image: linear-gradient( to right,
+  rgba(230, 111, 224, 0.8),
+  rgba(154, 105, 231, 0.8)
+),
+url("/images/work.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.bg-c-3 {
+  background-image: linear-gradient( to right,
+  rgba(243, 213, 113, 0.8),
+  rgba(228, 135, 73, 0.8)
+),
+url("/images/work.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.bg-c-4 {
+  background-image: linear-gradient( to right,
+  rgba(69, 182, 226, 0.8),
+  rgba(94, 223, 137, 0.8)
+ 
+),
+url("/images/work.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.company-logo img{
+  width: 4rem;
+  float: left;
+  margin-top: 0px;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.eventname{
+ display: block;
+}
+.bg-c-green {
+  background-image: linear-gradient( to right,
+  rgba(11, 161, 221, 0.8),
+  rgba(0, 255, 179, 0.8)
+),
+url("https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+.bg-c-yellow {
+  background-image: linear-gradient( to right,
+  rgba(47, 157, 200, 0.8),
+  rgba(0, 255, 221, 0.8)
+),
+url("https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.bg-c-pink {
+  background-image: linear-gradient( to right,
+  rgba(62, 177, 223, 0.8),
+  rgba(0, 255, 221, 0.8)
+),
+url("https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+}
+.card:hover{
+  transition: transform 0.2s linear !important;
+  transform: translateY(-9px) !important;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 8px 6px -6px black;
+}
+.date{
+  float: right;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+.card-title-bottom{
+  line-height: 0.2;
+}
+.card .card-block {
+  padding: 10px;
+}
+.order-card .reg{
+ font-weight: bold;
+}
+.order-card i {
+  font-size: 18px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+.reg{
+  color: black;
+}
+/* *********************** Events Ends *****************************  */
+
 /* *********************** Header Start *****************************  */
 .header {
   width: 100%;

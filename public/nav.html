@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./AboutUs.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Student.html">Student</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./School.html">School</a>
+                </li>
+                <li class="nav-item Signin" id="authbtn">
+                    <a class="nav-link" href="./Sigin.html">SignIn</a>
+                </li>
+                <li class="nav-item Signup" id="regbtn">
+                    <a class="nav-link" href="./Signup.html">SignUp</a>
+                </li>
+                <li class="nav-item Signup" id="logoutbtn">
+                    <a class="nav-link" id="btn-logout" href="" onclick="logout()">Logout</a>
+                </li>
+
+                <!-- <li class="nav-item Signin">
+              <a class="nav-link Signin-link" href="#" data-toggle="modal" href="javascript:void(0)"
+                onclick="openLoginModal();">Login</a>
+            </li>
+            <li class="nav-item Signup">
+              <a class="nav-link Signup-link" data-toggle="modal" href="javascript:void(0)"
+                onclick="openRegisterModal();">Register</a>
+            </li> -->
+            </ul>
+        </div>
+    </nav>
+    <script src="../public/js/login-register.js"></script>
+</body>
+
+</html>

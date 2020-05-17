@@ -46,7 +46,7 @@ li {
 p {
   font-size: 0.9em;
   font-weight: bold;
-  color: rgb(67, 66, 68);
+  /* color: rgb(67, 66, 68); */
 }
 h4 {
   font-size: 1.3rem;
@@ -66,42 +66,16 @@ h4 {
 }
 
 .bg-c-1 {
-  background-image: linear-gradient( to right,
-  rgba(226, 223, 64, 0.6),
-  rgba(12, 146, 235, 0.6)
-),
- url("/images/work.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-
+  background-color: #E74C3C ;
 }
 .bg-c-2 {
-  background-image: linear-gradient( to right,
-  rgba(230, 111, 224, 0.8),
-  rgba(154, 105, 231, 0.8)
-),
-url("/images/work.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  background-color: #5DADE2 ;
 }
 .bg-c-3 {
-  background-image: linear-gradient( to right,
-  rgba(243, 213, 113, 0.8),
-  rgba(228, 135, 73, 0.8)
-),
-url("/images/work.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  background-color: #AF7AC5 ;
 }
 .bg-c-4 {
-  background-image: linear-gradient( to right,
-  rgba(69, 182, 226, 0.8),
-  rgba(94, 223, 137, 0.8)
- 
-),
-url("/images/work.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  background-color: #2ECC71 ;
 }
 
 .company-logo img{
@@ -658,14 +632,31 @@ background-size: 100% 100%;
 .extra-div:hover {
   box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.9);
   background: black;
-  color: white;
+}
+.wfy-div-1:hover{
+  color:#3498DB;
+}
+.wfy-div-2:hover{
+  color:#2ECC71;
+}
+.wfy-div-3:hover{
+  color:#E67E22;
+}
+.wfy-div-4:hover{
+  color:#F4D03F ;
 }
 
-.extra-div p:hover {
-  color: rgb(199, 38, 199);
+.wfy-1{
+  color: #3498DB;
 }
-.fasclass {
-  color: #8608da;
+.wfy-2{
+  color: #2ECC71;
+}
+.wfy-3{
+  color: #E67E22;
+}
+.wfy-4{
+  color:#F4D03F ;
 }
 
 /* *********************** What's For You *****************************  */

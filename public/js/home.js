@@ -19,12 +19,12 @@ if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
 
 
 
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
+// function openNav() {
+//   document.getElementById("myNav").style.height = "100%";
+// }
 
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
-app.get(htmlExt('index'), controller.web.Home);
-app.get(htmlExt('school'), controller.web.school);
+// function closeNav() {
+//   document.getElementById("myNav").style.height = "0%";
+// }
+// app.get(htmlExt('index'), controller.web.Home);
+// app.get(htmlExt('school'), controller.web.school);

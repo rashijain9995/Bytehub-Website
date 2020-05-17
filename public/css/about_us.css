@@ -28,7 +28,6 @@ body {
 p {
   font-size: 0.9em;
   font-weight: bold;
-  color: rgb(67, 66, 68);
 }
 /* --------------------------------------------------------------------------------- */
 #navbar {
@@ -240,13 +239,19 @@ body {
 
 h3 {
   font-size: 25px;
-  color: #555;
+  color: #000;
   font-weight: bold;
 }
 h5 {
   font-size: 16px;
-  color: #333;
+  color: #000;
   font-weight: bold;
+}
+.card-body p{
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  text-align: justify;
 }
 .Team .Team-heading {
   font-size: 36px;
@@ -260,7 +265,7 @@ h5 {
 }
 .Team i {
   font-size: 26px;
-  color: #555;
+  color: #000;
 }
 .Team p {
   font-weight: 500;
@@ -274,7 +279,6 @@ h5 {
 }
 
 .Team .card:hover {
-  background-image: linear-gradient(to right, #990db6 0%, #e37351 100%);
   transform: translateY(-20px);
   border-radius: 5px;
   border: none;
@@ -283,6 +287,15 @@ h5 {
 .Team .card:hover h3,
 .Team .card:hover i {
   color: #fff;
+}
+.Team .bg-1:hover{
+  background-color: #e37351;
+}
+.Team .bg-2:hover{
+  background-color: #2a5470;
+}
+.Team .bg-3:hover{
+  background-color: #5D6D7E;
 }
 .Team #facebook:hover {
   color: blue;

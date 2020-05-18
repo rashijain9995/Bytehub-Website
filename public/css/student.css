@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 /* ScrollBar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -59,8 +59,8 @@ p {
 .navbar-nav {
   text-align: center;
   color: #0ae9c4;
-  padding: 15px 0px;
-}
+  padding: 0px 0px;
+} 
 body {
   font-family: "Raleway", sans-serif !important;
 }
@@ -70,7 +70,7 @@ body {
 }
 .navbar-nav a:hover {
   color: white !important;
-  font-size: 20px;
+  font-weight: bold;
 }
 .navbar-toggler {
   color: #0ae9c4;
@@ -83,35 +83,53 @@ body {
 }
 .Signin {
   margin: 0 5px;
-  border: 1.5px solid #f0f8ff;
+  border: 1.5px solid #0ae9c4;
   border-radius: 10px;
 }
 .Signin :hover {
   border-radius: 10px;
-  background-color: #f0f8ff;
+  color: #f0f8ff;
 }
 
 .Signin a {
   color: #0ae9c4 !important;
 }
 .Signin a:hover {
-  color: #0ae9c4 !important;
+  color: #fff !important;
+  font-weight: bold;
 }
 .Signup {
   margin: 0 5px;
-  border: 1.5px solid #f0f8ff;
+  border: 1.5px solid #0ae9c4;
   border-radius: 10px;
 }
 .Signup :hover {
   border-radius: 10px;
-  background-color: #f0f8ff;
+  color: #f0f8ff;
+
 }
 
 .Signup a {
   color: #0ae9c4 !important;
 }
 .Signup a:hover {
-  color: #0ae9c4 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.dropdown{
+  border: 1.5px solid #0ae9c4 !important;
+  border-radius: 10px;
+}
+.logoutbtn{
+  width: 100%;
+  margin: 0 5px;
+  border: 1.5px solid #0ae9c4;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #0ae9c4 
+}
+.logoutbtn:hover{
+color: #fff !important;
 }
 
 @media only screen and (max-width: 760px) {
@@ -134,6 +152,13 @@ body {
     border: none;
     border-radius: 0px;
   }
+  .dropdown-menu{
+    margin-left: 0px !important;
+    border: none !important;
+}
+.dropdown{
+    border: none !important;
+}
 }
 body {
   background-color: black;

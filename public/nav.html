@@ -5,11 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nav</title>
+    <script src="./js/login-register.js"></script>
+    <script>
+        firebase.auth().onAuthStateChanged(function (user) {
+          if (user) {
+            // User is signed in.
+            document.getElementById("authbtn").style.display = "none";
+            document.getElementById("regbtn").style.display = "none";
+            document.getElementById("droplogout").style.display = "block";
+    
+    
+          } else {
+            // No user is signed in.
+            document.getElementById("droplogout").style.display = "none";
+            document.getElementById("authbtn").style.display = "block";
+            document.getElementById("regbtn").style.display = "block";
+           
+          }
+        });
+      </script>
+  <style>
+      .dropdown-menu{
+          background-color: transparent;
+          border: none;
+          margin-left: 70px;
+      }
+      .dropdown{
+          border: 1.5px solid black;
+          border-radius: 10px;
+      }
+      @media only screen and (max-width: 760px) {
+        .dropdown-menu{
+            margin-left: 0px;
+            border: none;
+        }
+        .dropdown{
+            border: none;
+        }
+      }
+  </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+        <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,10 +89,16 @@
               <a class="nav-link Signup-link" data-toggle="modal" href="javascript:void(0)"
                 onclick="openRegisterModal();">Register</a>
             </li> -->
+            <li class="nav-item dropdown" id="droplogout">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <button class="btn  logoutbtn"onclick="logout()">Logout</button>
+                </div>
+              </li>
+                </li>
             </ul>
         </div>
     </nav>
-    <script src="../public/js/login-register.js"></script>
 </body>
-
 </html>

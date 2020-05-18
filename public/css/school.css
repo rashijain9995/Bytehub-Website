@@ -60,58 +60,75 @@ p {
 
 .navbar-nav {
   text-align: center;
-  color: #73c2fb;
-  padding: 15px 0px;
+  color: #6488ea;
+  padding: 0px 0px;
 }
 .navbar-nav a {
-  color: #73c2fb !important;
+  color: #6488ea !important;
   font-family: "Raleway", sans-serif;
 }
 .navbar-nav a:hover {
   color: white !important;
-  font-size: 20px;
+  font-weight: bold;
 }
 .navbar-toggler {
-  color: #73c2fb;
+  color: #6488ea;
 }
 .custom-toggler.navbar-toggler {
-  border-color: #73c2fb;
+  border-color: rgb(100, 136, 234);
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 136, 234)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .Signin {
   margin: 0 5px;
-  border: 1.5px solid #f0f8ff;
+  border: 1.5px solid #6488ea;
   border-radius: 10px;
 }
 .Signin :hover {
   border-radius: 10px;
-  background-color: #f0f8ff;
+ border-color: #fff;
 }
 
 .Signin a {
-  color: #73c2fb !important;
+  color: #6488ea !important;
 }
 .Signin a:hover {
-  color: #0073cf !important;
+  color: #fff !important;
+  font-weight: bold;
 }
 .Signup {
   margin: 0 5px;
-  border: 1.5px solid #f0f8ff;
+  border: 1.5px solid #6488ea;
   border-radius: 10px;
 }
 .Signup :hover {
   border-radius: 10px;
-  background-color: #f0f8ff;
+  color: #f0f8ff;
 }
 
 .Signup a {
-  color: #73c2fb !important;
+  color: #6488ea !important;
 }
 .Signup a:hover {
-  color: #0073cf !important;
+  color: #fff !important;
+  font-weight: bold;
 }
+.dropdown{
+  border-radius: 10px;
+}
+.logoutbtn{
+  width: 100%;
+  margin: 0 5px;
+  border: 1.5px solid #6488ea;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #6488ea; 
+}
+.logoutbtn:hover{
+color: #fff !important;
+}
+
 
 @media only screen and (max-width: 760px) {
   .navbar-nav {
@@ -133,6 +150,7 @@ p {
     border: none;
     border-radius: 0px;
   }
+
 }
 body {
   background-color: black;

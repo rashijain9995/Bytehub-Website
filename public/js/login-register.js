@@ -25,6 +25,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     if (user != null) {
 
       email = user.email;
+      document.getElementById("navbarDropdown").innerHTML = email;
       emailVerified = user.emailVerified;
       if (emailVerified) {
         // window.location.href = 'index.html'

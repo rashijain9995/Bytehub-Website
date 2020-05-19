@@ -1,13 +1,13 @@
 // Initialize Firebase 
 var config = {
-  apiKey: "AIzaSyA4034AE739cWDIpc--Fh4-ADSrB2bC-J8",
-  authDomain: "bytehubindia-6083a.firebaseapp.com",
-  databaseURL: "https://bytehubindia-6083a.firebaseio.com",
-  projectId: "bytehubindia-6083a",
-  storageBucket: "bytehubindia-6083a.appspot.com",
-  messagingSenderId: "853900768803",
-  appId: "1:853900768803:web:ff78dd335471ad263c6396",
-  measurementId: "G-MTPCVDR2FX"
+  apiKey: "AIzaSyD3TroT_QhXyskbKebXLBaAKJBMtjdJROs",
+  authDomain: "bytehubin.firebaseapp.com",
+  databaseURL: "https://bytehubin.firebaseio.com",
+  projectId: "bytehubin",
+  storageBucket: "bytehubin.appspot.com",
+  messagingSenderId: "755031666174",
+  appId: "1:755031666174:web:1c0bbeb860efd6a6d124af",
+  measurementId: "G-VE8X7LDZM1"
 };
 firebase.initializeApp(config);
 firebase.analytics();

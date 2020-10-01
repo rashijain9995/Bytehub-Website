@@ -2,9 +2,9 @@
   <img src="public/assets/logo2.png" width="350" title="Bytehub"></a>
 </p>
 
-# Bytehub-Website
+# ByteHub-Website
 
-Bytehub india is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn &amp; grow together, but also helps you explore new opportunities!
+ByteHub india is a community of like-minded technology enthusiasts, students and professionals who help each other to push their limits. Bytehub as a platform for techies not only helps you learn &amp; grow together, but also helps you explore new opportunities!
 
 ## Getting Started
 
